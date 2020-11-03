@@ -5,15 +5,15 @@
 # Site
 title: cuiyuqin blog
 subtitle: subtitle
-description: description
+description: cuiyuqin blog
 keywords:
 author: CuiYuQin
-language: en
-timezone: ''
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://cuiyuqin.github.io./
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
