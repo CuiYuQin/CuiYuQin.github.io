@@ -10,7 +10,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ``` bash
 $ hexo new "My New Post test"
 ```
-
+![](https://raw.githubusercontent.com/CuiYuQin/picBed/master/img/%E8%B7%AA%E4%B8%8B.jpg)
 More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
