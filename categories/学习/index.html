@@ -239,28 +239,82 @@
       container: document.getElementById('aplayer'),
       autoplay: false, //自动播放
       listFolded: true, //播放列表默认折叠
-      listMaxHeight: 90, //播放列表最大高度
+      listMaxHeight: 60, //播放列表最大高度
       order: 'list', //音频循环顺序, 可选值: 'list', 'random'
       loop: 'all', //音频循环播放, 可选值: 'all', 'one', 'none'
       theme: '#e9e9e9', //切换音频时的主题色，优先级低于audio.theme
       preload: 'none', //音频预加载，可选值: 'none', 'metadata', 'auto'
       mutex: true, //互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
-      lrcType: 1, //歌词格式，可选值：3（LRC文件歌词格式），1（JS字符串歌词格式）
-      volume: 0.7, //默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+      lrcType: 2, //歌词格式，可选值：3（LRC文件歌词格式），1（JS字符串歌词格式）
+      volume: 0.1, //默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
       fixed: true, //吸底模式（fixed:true），迷你模式（mini:true），普通模式（注释此行或者设置fixed:false）
       audio: [{
-          name: '平凡之路',
-          artist: '朴树',
-          lrc: '/downloads/lrc/平凡之路-朴树.lrc',
-          cover: 'http://p2.music.126.net/W_5XiCv3rGS1-J7EXpHSCQ==/18885211718782327.jpg?param=300x300',
-          url: 'https://m7.music.126.net/20201108000314/ff97642161c0c54a17cfba6e624b99e3/ymusic/5359/0f5e/075a/d370955f4e849960557700479ce0b834.mp3'
+          name: 'Coastline',
+          artist: 'Liu,WOAK,Hollow Coves',
+          lrc: `[ti:Coastline]
+[ar:Liu/WOAK/Hollow Coves]
+[al:Study Music, Vol. 1: Deep House (Presented by Spinnin&apos; Records)]
+[by:]
+[offset:0]
+[00:00.00]Coastline - Liu/WOAK/Hollow Coves
+[00:09.20]Lyrics by：C. Liu de Almeida/M. Carins/R. Henderson
+[00:18.40]I&apos;m leaving home for the Coastline
+[00:22.24]Some place under the sun
+[00:26.08]I feel my heart for the first time
+[00:30.07]&apos;Cause now I&apos;m moving on yeah I&apos;m moving on
+[00:33.89]And there&apos;s a place that I&apos;ve dreamed of
+[00:37.82]Where I can free my mind
+[00:41.79]I hear the sounds of the season
+[00:45.00]And lose all sense of time
+[00:51.82]I&apos;m moving far away
+[00:55.69]To a sunny place
+[00:59.64]Where it&apos;s just you and me
+[01:03.45]Feels like we&apos;re in a dream
+[01:06.36]You know what I
+[01:07.53]I&apos;m moving far away
+[01:11.30]To a sunny place
+[01:15.29]Where it&apos;s just you and me
+[01:19.30]Feels like we&apos;re in a dream
+[01:21.90]You know what I mean
+[01:38.95]I&apos;m leaving home for the Coastline
+[01:42.87]Some place under the sun
+[01:46.75]I feel my heart for the first time
+[01:50.71]&apos;Cause now I&apos;m moving on yeah I&apos;m moving
+[01:54.65]And there&apos;s a place that I&apos;ve dreamed of
+[01:58.54]Where I can free my mind
+[02:02.52]I hear the sounds of the season
+[02:05.67]And lose all sense of time
+[02:12.49]I&apos;m moving far away
+[02:16.33]To a sunny place
+[02:20.19]Where it&apos;s just you and me
+[02:24.13]Feels like we&apos;re in a dream
+[02:26.87]You know what I mean
+[02:28.11]I&apos;m moving far away
+[02:32.07]To a sunny place
+[02:35.94]Where it&apos;s just you and me
+[02:39.95]Feels like we&apos;re in a dream
+[02:42.60]You know what I mean
+[02:43.96]I&apos;m moving far away
+[02:47.78]To a sunny place
+[02:51.70]Where it&apos;s just you and me
+[02:55.61]Feels like we&apos;re in a dream
+[02:58.27]You know what I mean`,
+          cover: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000004Yg3Aw3L10S2.jpg?param=300x300',
+          url: ' http://isure.stream.qqmusic.qq.com/C400003tvE9h0JkgQ3.m4a?guid=431113228&vkey=6F20C3162922EC7294F2DB58DEF6E4EF4910458E4D5B6E8B8147AC7A5B5C331E5DE6F8A47E7007AE04C1E9F25D158C1F49B3912D2AA8EEF8&uin=0&fromtag=66'
+        },
+      {
+          name: 'Wake Me Up When September Ends',
+          artist: 'Green Day',
+          // lrc: '/downloads/lrc/平凡之路-朴树.lrc',
+          cover: 'https://p2.music.126.net/K-T9MrYYtb5bnTa79Im3EA==/5508553255257579.jpg?param=300x300',
+          url: 'https://m701.music.126.net/20201108002622/3b85bcf0906cd23a119d8866aac7331d/jdyyaac/0558/030c/535c/227a690c184fa499497cd630f916e224.m4a'
         },
         {
-          name: '后会无期',
-          artist: 'G.E.M.邓紫棋',
-          lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
-          cover: 'http://p1.music.126.net/vpvPajo3kn88nHc7jUjeWQ==/5974746185758035.jpg?param=300x300',
-          url: 'https://m801.music.126.net/20201107231516/4bfafc6f130125b312c658eb2b180854/jdyyaac/540e/055c/0f5e/cd8136a14526169807e6843af584fcd8.m4a'
+          name: '爱江山更爱美人 (翻自 李丽芬)',
+          artist: '阿虾',
+          // lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
+          cover: 'https://p2.music.126.net/xyt6V2Jfg4lHhDhdpkLQqw==/109951164428903785.jpg?param=300x300',
+          url: 'http://m701.music.126.net/20201108004412/755a52c49d2578beaed2be4d18ab2efb/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/2110595831/4f49/7bce/2e83/ccde791fe666cb7ca40773abc00537c1.mp3'
         }
       ]
     });
