@@ -3,10 +3,10 @@
   <entry>
     <title>About Me</title>
     <url>/2019/12/01/about/</url>
-    <content><![CDATA[<blockquote>
-<p>A developer, live in Hangzhou, China.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>A developer, live in guangzhou, China.</p>
 </blockquote>
-<p>姓名：沈宇<br>现居：杭州<br>GitHub: <a href="https://github.com/Shen-Yu">Shen-Yu</a><br>twitter: <a href="https://twitter.com/shenyu1995">shenyu1995</a><br>QQ: <a href="http://wpa.qq.com/msgrd?v=3&uin=448766534&site=qq&menu=yes">448766534</a><br>微信: yuknass</p>
+<p>姓名：崔玉勤<br>现居：广州<br>GitHub: <a href="https://github.com/CuiYuQin">https://github.com/CuiYuQin</a><br>email: <a href="15920170089@163.com">15920170089@163.com</a><br>微信: 15920170089</p>
 <a id="more"></a>
 
 <!-- ![avatar.jpg](https://i.loli.net/2019/12/02/Hw5WJIMKzi1YrU8.jpg) -->
@@ -93,7 +93,7 @@
   <entry>
     <title>mysql踩坑记录</title>
     <url>/2020/08/26/mysql/</url>
-    <content><![CDATA[<p>事情起因是这样的，我最近想着写个用python爬取某网站音频并写入数据库的脚本，由于之前操作数据库都是在线上直接改，没有本地连过，所以本地的pymysql想连我网站的数据库，第一步是要把user表的localhost改成%，以此开放远程连接，问题就来了，我在phpmyadmin改完之后，居然所有账号都登不上了，也不知道哪出了问题，可能是我敲错了吧。然后我又找了一篇新建root用户的博文，跟着敲，敲完之后确实能登上去了。但是！这时候只能看到information_schema这一个数据库了，这时候网站也挂了，我以为数据库被误删了，就找各种方法想还原数据库。折腾半天，我终于解决了，我觉得有必要记录一下踩坑过程。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="http://xxx/aplayer.min.css"><script src="http://xxx/aplayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='http://xxx/api.php?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="http://xxx/Meing.min.js"></script><p>事情起因是这样的，我最近想着写个用python爬取某网站音频并写入数据库的脚本，由于之前操作数据库都是在线上直接改，没有本地连过，所以本地的pymysql想连我网站的数据库，第一步是要把user表的localhost改成%，以此开放远程连接，问题就来了，我在phpmyadmin改完之后，居然所有账号都登不上了，也不知道哪出了问题，可能是我敲错了吧。然后我又找了一篇新建root用户的博文，跟着敲，敲完之后确实能登上去了。但是！这时候只能看到information_schema这一个数据库了，这时候网站也挂了，我以为数据库被误删了，就找各种方法想还原数据库。折腾半天，我终于解决了，我觉得有必要记录一下踩坑过程。</p>
 <a id="more"></a>
 
 <p><strong>只能看到information_schema的原因：用户没权限，而不是数据库被误删了。</strong></p>
