@@ -1,0 +1,8 @@
+User-agent: * Allow: /
+Allow: /archives/
+Allow: /categories/
+Disallow: /vendors/
+
+
+Sitemap: https://shen-yu.gitee.io/sitemap.xml
+Sitemap: https://shen-yu.gitee.io/baidusitemap.xml
