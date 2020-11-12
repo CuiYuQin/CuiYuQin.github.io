@@ -107,48 +107,6 @@
 <div id="main">
   <section class="outer">
   
-  
-
-<div class="notice" style="margin-top:50px">
-    <i class="ri-heart-fill"></i>
-    <div class="notice-content" id="broad"></div>
-</div>
-<script type="text/javascript">
-    fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("broad").innerHTML = data.hitokoto;
-        })
-        .catch(console.error)
-</script>
-
-<style>
-    .notice {
-        padding: 20px;
-        border: 1px dashed #e6e6e6;
-        color: #969696;
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        background: #fbfbfb50;
-        border-radius: 10px;
-    }
-
-    .notice i {
-        float: left;
-        color: #999;
-        font-size: 16px;
-        padding-right: 10px;
-        vertical-align: middle;
-        margin-top: -2px;
-    }
-
-    .notice-content {
-        display: initial;
-        vertical-align: middle;
-    }
-</style>
-  
   <article class="articles">
     
     
@@ -180,23 +138,28 @@
   <div class="article-category">
     <a class="article-category-link" href="/categories/%E6%97%85%E8%A1%8C/">旅行</a>
   </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-count">4.6k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> Reading time≈</span>
+            <span class="post-count">15 min</span>
+        </span>
+    </span>
+</div>
  
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="我的所爱，在海云之间。"><a href="#我的所爱，在海云之间。" class="headerlink" title="我的所爱，在海云之间。"></a>我的所爱，在海云之间。</h2><blockquote>
-<p>最喜欢骑着摩托在海云岭上拉到最大马力的感觉~</p>
-</blockquote>
-<p>刚开始想去越南只是听朋友说物价便宜，人美景也美，尤其是有海滩，决定下来之后就开始查很多网友的攻略，后来发现看攻略根本记不住啥，说来说去都是这么几个注意点。上班的时候就没啥心思了，很期待这场旅行，本来假期就不多，春节正好可以躲避寒冬，于是约了个好友一起去，人均花费在4000左右吧，要是平时去估计能便宜一半。我选择了在年三十就出发，即使是这样，我们真正玩的时间也只有三天，有大半时间都浪费在了路上，不过这一路上的经历回想起来也挺有意思的。在此还是强烈推荐平时淡季去，春节机票贵，火车票又一票难求，如果是淡季去的话直飞是最爽快的了。</p> 
-      <a class="article-more-link" href="/2017/01/27/%E6%98%A5%E8%8A%82%E8%B6%8A%E5%8D%97%E8%A1%8C/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -207,8 +170,7 @@
     </footer>
   </div>
 
-    
- 
+   
    
 </article>
 
@@ -239,20 +201,28 @@
   <div class="article-category">
     <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>
   </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-count">159</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> Reading time≈</span>
+            <span class="post-count">1 min</span>
+        </span>
+    </span>
+</div>
  
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="焦距"><a href="#焦距" class="headerlink" title="焦距"></a>焦距</h2><p>1.广角：28mm，长焦800<br>2.光圈</p> 
-      <a class="article-more-link" href="/2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -263,8 +233,7 @@
     </footer>
   </div>
 
-    
- 
+   
    
 </article>
 
@@ -303,6 +272,13 @@
     </ul>
     <ul>
       <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>Visitors:<span id="busuanzi_value_site_uv"></span></s>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>Views:<span id="busuanzi_value_page_pv"></span></span>
+</span>
         
       </li>
     </ul>
@@ -369,7 +345,15 @@
     </li>
     
     <li class="nav-item">
+      <a class="nav-item-link" href="/algorithm/">算法</a>
+    </li>
+    
+    <li class="nav-item">
       <a class="nav-item-link" href="/friends">友链</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于我🤪</a>
     </li>
     
   </ul>
@@ -553,9 +537,37 @@
 
 <!-- MathJax -->
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true
+  }
+</script>
+
 <!-- Katex -->
 
 <!-- busuanzi  -->
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
 
 <!-- ClickLove -->
 
