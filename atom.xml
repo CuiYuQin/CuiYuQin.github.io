@@ -3,11 +3,11 @@
   <title>hello world from cuiyuqin</title>
   
   <subtitle>面朝大海，春暖花开</subtitle>
-  <link href="https://cuiyuqin.github.io./atom.xml" rel="self"/>
+  <link href="https://cyqin.top/atom.xml" rel="self"/>
   
-  <link href="https://cuiyuqin.github.io./"/>
-  <updated>2020-11-07T09:14:58.529Z</updated>
-  <id>https://cuiyuqin.github.io./</id>
+  <link href="https://cyqin.top/"/>
+  <updated>2020-11-13T07:32:54.642Z</updated>
+  <id>https://cyqin.top/</id>
   
   <author>
     <name>崔玉勤</name>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>About Me</title>
+    <link href="https://cyqin.top/2020/11/12/about/"/>
+    <id>https://cyqin.top/2020/11/12/about/</id>
+    <published>2020-11-11T16:00:01.000Z</published>
+    <updated>2020-11-13T07:32:54.642Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;A developer, live in guangzhou, China.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;姓名：崔玉勤&lt;br&gt;现居：广州&lt;br&gt;GitHub: &lt;a href=&quot;https://github.com/CuiYuQin&quot;&gt;https://github.com/CuiYuQin&lt;/a&gt;&lt;br&gt;email: &lt;a href=&quot;15920170089@163.com&quot;&gt;15920170089@163.com&lt;/a&gt;&lt;br&gt;微信: 15920170089&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="其他" scheme="https://cyqin.top/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="其他" scheme="https://cyqin.top/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>免备案 CDN 推荐</title>
-    <link href="https://cuiyuqin.github.io./2020/08/26/nodecache/"/>
-    <id>https://cuiyuqin.github.io./2020/08/26/nodecache/</id>
+    <link href="https://cyqin.top/2020/08/26/nodecache/"/>
+    <id>https://cyqin.top/2020/08/26/nodecache/</id>
     <published>2020-08-26T15:33:35.000Z</published>
-    <updated>2020-11-07T09:14:58.529Z</updated>
+    <updated>2020-11-13T06:48:39.151Z</updated>
     
     
     <summary type="html">&lt;p&gt;最近刚好需要用到免备案 CDN，所以查了下资料，使用一段时间后感觉 Nodecache 很不错 。&lt;br&gt;b&lt;br&gt;Nodecache 主要提供CDN、DNS、SSL 证书等业务，亚太节点有我们喜欢的香港线路，速度很不错。&lt;/p&gt;
@@ -31,38 +53,38 @@
     
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>mysql踩坑记录</title>
-    <link href="https://cuiyuqin.github.io./2020/08/26/mysql/"/>
-    <id>https://cuiyuqin.github.io./2020/08/26/mysql/</id>
+    <link href="https://cyqin.top/2020/08/26/mysql/"/>
+    <id>https://cyqin.top/2020/08/26/mysql/</id>
     <published>2020-08-26T14:02:10.000Z</published>
-    <updated>2020-11-07T13:25:50.419Z</updated>
+    <updated>2020-11-13T07:03:42.307Z</updated>
     
     
     <summary type="html">&lt;p&gt;事情起因是这样的，我最近想着写个用python爬取某网站音频并写入数据库的脚本，由于之前操作数据库都是在线上直接改，没有本地连过，所以本地的pymysql想连我网站的数据库，第一步是要把user表的localhost改成%，以此开放远程连接，问题就来了，我在phpmyadmin改完之后，居然所有账号都登不上了，也不知道哪出了问题，可能是我敲错了吧。然后我又找了一篇新建root用户的博文，跟着敲，敲完之后确实能登上去了。但是！这时候只能看到information_schema这一个数据库了，这时候网站也挂了，我以为数据库被误删了，就找各种方法想还原数据库。折腾半天，我终于解决了，我觉得有必要记录一下踩坑过程。&lt;/p&gt;</summary>
     
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>网站搬家记录</title>
-    <link href="https://cuiyuqin.github.io./2020/07/16/%E7%BD%91%E7%AB%99%E6%90%AC%E5%AE%B6%E8%AE%B0%E5%BD%95/"/>
-    <id>https://cuiyuqin.github.io./2020/07/16/%E7%BD%91%E7%AB%99%E6%90%AC%E5%AE%B6%E8%AE%B0%E5%BD%95/</id>
+    <link href="https://cyqin.top/2020/07/16/%E7%BD%91%E7%AB%99%E6%90%AC%E5%AE%B6%E8%AE%B0%E5%BD%95/"/>
+    <id>https://cyqin.top/2020/07/16/%E7%BD%91%E7%AB%99%E6%90%AC%E5%AE%B6%E8%AE%B0%E5%BD%95/</id>
     <published>2020-07-16T12:45:28.000Z</published>
-    <updated>2020-11-07T09:14:58.537Z</updated>
+    <updated>2020-11-13T03:49:08.232Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -72,21 +94,21 @@
     
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="生活" scheme="https://cuiyuqin.github.io./tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://cyqin.top/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>hexo-seo优化技巧</title>
-    <link href="https://cuiyuqin.github.io./2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/"/>
-    <id>https://cuiyuqin.github.io./2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</id>
+    <link href="https://cyqin.top/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/"/>
+    <id>https://cyqin.top/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</id>
     <published>2020-06-16T14:32:38.000Z</published>
-    <updated>2020-11-07T09:14:58.521Z</updated>
+    <updated>2020-11-13T03:49:08.219Z</updated>
     
     
     <summary type="html">&lt;p&gt;搭建的hexo博客如果不经过优化，在搜索引擎被收录的可能很小，SEO可以提高被搜到的几率&lt;/p&gt;
@@ -101,19 +123,19 @@
     
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>Ayer中文说明</title>
-    <link href="https://cuiyuqin.github.io./2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/"/>
-    <id>https://cuiyuqin.github.io./2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</id>
+    <link href="https://cyqin.top/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/"/>
+    <id>https://cyqin.top/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</id>
     <published>2019-12-03T05:26:02.000Z</published>
-    <updated>2020-11-07T09:14:58.519Z</updated>
+    <updated>2020-11-13T07:03:35.824Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;blockquote&gt;
@@ -128,108 +150,88 @@
     
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cuiyuqin.github.io./tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>About Me</title>
-    <link href="https://cuiyuqin.github.io./2019/12/01/about/"/>
-    <id>https://cuiyuqin.github.io./2019/12/01/about/</id>
-    <published>2019-12-01T13:37:04.000Z</published>
-    <updated>2020-11-07T16:16:17.326Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;A developer, live in guangzhou, China.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;姓名：崔玉勤&lt;br&gt;现居：广州&lt;br&gt;GitHub: &lt;a href=&quot;https://github.com/CuiYuQin&quot;&gt;https://github.com/CuiYuQin&lt;/a&gt;&lt;br&gt;email: &lt;a href=&quot;15920170089@163.com&quot;&gt;15920170089@163.com&lt;/a&gt;&lt;br&gt;微信: 15920170089&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="随笔" scheme="https://cuiyuqin.github.io./tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>静享云南慢时光</title>
-    <link href="https://cuiyuqin.github.io./2018/11/21/%E9%9D%99%E4%BA%AB%E4%BA%91%E5%8D%97%E6%85%A2%E6%97%B6%E5%85%89/"/>
-    <id>https://cuiyuqin.github.io./2018/11/21/%E9%9D%99%E4%BA%AB%E4%BA%91%E5%8D%97%E6%85%A2%E6%97%B6%E5%85%89/</id>
+    <link href="https://cyqin.top/2018/11/21/%E9%9D%99%E4%BA%AB%E4%BA%91%E5%8D%97%E6%85%A2%E6%97%B6%E5%85%89/"/>
+    <id>https://cyqin.top/2018/11/21/%E9%9D%99%E4%BA%AB%E4%BA%91%E5%8D%97%E6%85%A2%E6%97%B6%E5%85%89/</id>
     <published>2018-11-20T16:17:37.000Z</published>
-    <updated>2020-11-07T09:14:58.540Z</updated>
+    <updated>2020-11-13T03:49:08.234Z</updated>
     
     
     <summary type="html">&lt;p&gt;当我坐着飞机掠过玉龙雪山，当我拿着杯子舀起泸沽湖水，当我沐浴阳光闻着洱海气息，当我立于海埂大坝望着海鸥随风翱翔，当我骑着自行车与彝族寨子擦肩而过……当我真正踏入这片土地，我发现它不仅仅是适合文艺小资青年，更适合热爱山水，热爱自由的背包客。&lt;/p&gt;</summary>
     
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./categories/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
     
-    <category term="国内" scheme="https://cuiyuqin.github.io./categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
+    <category term="国内" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./tags/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
     
-    <category term="国内" scheme="https://cuiyuqin.github.io./tags/%E5%9B%BD%E5%86%85/"/>
+    <category term="国内" scheme="https://cyqin.top/tags/%E5%9B%BD%E5%86%85/"/>
     
   </entry>
   
   <entry>
     <title>原汁原味黔东南</title>
-    <link href="https://cuiyuqin.github.io./2018/11/21/%E5%8E%9F%E6%B1%81%E5%8E%9F%E5%91%B3%E9%BB%94%E4%B8%9C%E5%8D%97/"/>
-    <id>https://cuiyuqin.github.io./2018/11/21/%E5%8E%9F%E6%B1%81%E5%8E%9F%E5%91%B3%E9%BB%94%E4%B8%9C%E5%8D%97/</id>
+    <link href="https://cyqin.top/2018/11/21/%E5%8E%9F%E6%B1%81%E5%8E%9F%E5%91%B3%E9%BB%94%E4%B8%9C%E5%8D%97/"/>
+    <id>https://cyqin.top/2018/11/21/%E5%8E%9F%E6%B1%81%E5%8E%9F%E5%91%B3%E9%BB%94%E4%B8%9C%E5%8D%97/</id>
     <published>2018-11-20T16:15:20.000Z</published>
-    <updated>2020-11-07T09:14:58.531Z</updated>
+    <updated>2020-11-13T03:49:08.228Z</updated>
     
     
     <summary type="html">&lt;p&gt;从昆明向东过来，我预选的目的地有两个，都匀和凯里。到都匀的话去荔波比较方便，到凯里的话去看黔东南苗寨比较方便。考虑到荔波在南边，而且交通不是很方便（目前正在建凯里到荔波的大路，建成后大巴过去还是挺方便的），如果从都匀过去的话也会浪费几天时间，所以就留下了这一程最遗憾的一点，就是没能去荔波看看喀斯特地貌（其实来之前我对荔波已经做足了攻略）。好在这一点遗憾马上就被朗德和镇远给弥补了。&lt;/p&gt;</summary>
     
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./categories/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
     
-    <category term="国内" scheme="https://cuiyuqin.github.io./categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
+    <category term="国内" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./tags/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
     
-    <category term="国内" scheme="https://cuiyuqin.github.io./tags/%E5%9B%BD%E5%86%85/"/>
+    <category term="国内" scheme="https://cyqin.top/tags/%E5%9B%BD%E5%86%85/"/>
     
   </entry>
   
   <entry>
     <title>大美湘西</title>
-    <link href="https://cuiyuqin.github.io./2018/11/21/%E5%A4%A7%E7%BE%8E%E6%B9%98%E8%A5%BF/"/>
-    <id>https://cuiyuqin.github.io./2018/11/21/%E5%A4%A7%E7%BE%8E%E6%B9%98%E8%A5%BF/</id>
+    <link href="https://cyqin.top/2018/11/21/%E5%A4%A7%E7%BE%8E%E6%B9%98%E8%A5%BF/"/>
+    <id>https://cyqin.top/2018/11/21/%E5%A4%A7%E7%BE%8E%E6%B9%98%E8%A5%BF/</id>
     <published>2018-11-20T16:13:57.000Z</published>
-    <updated>2020-11-07T09:14:58.532Z</updated>
+    <updated>2020-11-13T03:49:08.228Z</updated>
     
     
     <summary type="html">&lt;p&gt;为什么先写这篇？因为湘西是我云贵湘之行的最后一站，刚出怀化火车站，我对它的印象是很差的，首先是有很多莫名其妙的人会把你围得透不过气，各种请你住宿吃饭打车，甚至我在怀化汽车站上厕所还向我收费（我当然没有给）。之后我去了凤凰古镇，到的时候正好是晚上，周遭一片漆黑，只有中心地带比较热闹，古镇里还有小女孩强行推销鲜花，和苗族姑娘拍照也得收费。这是湘西给我的第一印象。就是商业化太严重了，我想，也或许是当地经济比较差的缘故吧。。这和政府在城市整治这方面有脱不开的关系。不过抛开这些不谈，整个湘西的风景还是值得一去的。&lt;/p&gt;</summary>
     
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./categories/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
     
-    <category term="国内" scheme="https://cuiyuqin.github.io./categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
+    <category term="国内" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./tags/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
     
-    <category term="国内" scheme="https://cuiyuqin.github.io./tags/%E5%9B%BD%E5%86%85/"/>
+    <category term="国内" scheme="https://cyqin.top/tags/%E5%9B%BD%E5%86%85/"/>
     
   </entry>
   
   <entry>
     <title>雅加达出差记</title>
-    <link href="https://cuiyuqin.github.io./2017/12/24/%E9%9B%85%E5%8A%A0%E8%BE%BE%E5%87%BA%E5%B7%AE%E8%AE%B0/"/>
-    <id>https://cuiyuqin.github.io./2017/12/24/%E9%9B%85%E5%8A%A0%E8%BE%BE%E5%87%BA%E5%B7%AE%E8%AE%B0/</id>
+    <link href="https://cyqin.top/2017/12/24/%E9%9B%85%E5%8A%A0%E8%BE%BE%E5%87%BA%E5%B7%AE%E8%AE%B0/"/>
+    <id>https://cyqin.top/2017/12/24/%E9%9B%85%E5%8A%A0%E8%BE%BE%E5%87%BA%E5%B7%AE%E8%AE%B0/</id>
     <published>2017-12-24T03:05:25.000Z</published>
-    <updated>2020-11-07T09:14:58.539Z</updated>
+    <updated>2020-11-13T03:49:08.234Z</updated>
     
     
     <summary type="html">&lt;p&gt;整理手机相册，发现还有一段回忆没整理，于是抽了这段闲暇时间把在 雅加达 的日子记录下来，希望有些经验也能帮到网友。&lt;/p&gt;
@@ -237,21 +239,21 @@
     
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./categories/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./tags/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
     
-    <category term="东南亚" scheme="https://cuiyuqin.github.io./tags/%E4%B8%9C%E5%8D%97%E4%BA%9A/"/>
+    <category term="东南亚" scheme="https://cyqin.top/tags/%E4%B8%9C%E5%8D%97%E4%BA%9A/"/>
     
   </entry>
   
   <entry>
     <title>春节越南行</title>
-    <link href="https://cuiyuqin.github.io./2017/01/27/%E6%98%A5%E8%8A%82%E8%B6%8A%E5%8D%97%E8%A1%8C/"/>
-    <id>https://cuiyuqin.github.io./2017/01/27/%E6%98%A5%E8%8A%82%E8%B6%8A%E5%8D%97%E8%A1%8C/</id>
+    <link href="https://cyqin.top/2017/01/27/%E6%98%A5%E8%8A%82%E8%B6%8A%E5%8D%97%E8%A1%8C/"/>
+    <id>https://cyqin.top/2017/01/27/%E6%98%A5%E8%8A%82%E8%B6%8A%E5%8D%97%E8%A1%8C/</id>
     <published>2017-01-27T12:25:55.000Z</published>
-    <updated>2020-11-07T09:14:58.536Z</updated>
+    <updated>2020-11-13T03:49:08.232Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;我的所爱，在海云之间。&quot;&gt;&lt;a href=&quot;#我的所爱，在海云之间。&quot; class=&quot;headerlink&quot; title=&quot;我的所爱，在海云之间。&quot;&gt;&lt;/a&gt;我的所爱，在海云之间。&lt;/h2&gt;&lt;blockquote&gt;
@@ -261,35 +263,35 @@
     
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./categories/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
     
     
-    <category term="旅行" scheme="https://cuiyuqin.github.io./tags/%E6%97%85%E8%A1%8C/"/>
+    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
     
-    <category term="东南亚" scheme="https://cuiyuqin.github.io./tags/%E4%B8%9C%E5%8D%97%E4%BA%9A/"/>
+    <category term="东南亚" scheme="https://cyqin.top/tags/%E4%B8%9C%E5%8D%97%E4%BA%9A/"/>
     
   </entry>
   
   <entry>
     <title>手机摄影学习笔记</title>
-    <link href="https://cuiyuqin.github.io./2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>https://cuiyuqin.github.io./2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <link href="https://cyqin.top/2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://cyqin.top/2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
     <published>2016-09-07T07:06:00.000Z</published>
-    <updated>2020-11-07T09:14:58.534Z</updated>
+    <updated>2020-11-13T03:49:08.229Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;焦距&quot;&gt;&lt;a href=&quot;#焦距&quot; class=&quot;headerlink&quot; title=&quot;焦距&quot;&gt;&lt;/a&gt;焦距&lt;/h2&gt;&lt;p&gt;1.广角：28mm，长焦800&lt;br&gt;2.光圈&lt;/p&gt;</summary>
     
     
     
-    <category term="学习" scheme="https://cuiyuqin.github.io./categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://cyqin.top/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="随笔" scheme="https://cuiyuqin.github.io./tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="学习" scheme="https://cyqin.top/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="学习" scheme="https://cuiyuqin.github.io./tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="随笔" scheme="https://cyqin.top/tags/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="摄影" scheme="https://cuiyuqin.github.io./tags/%E6%91%84%E5%BD%B1/"/>
+    <category term="摄影" scheme="https://cyqin.top/tags/%E6%91%84%E5%BD%B1/"/>
     
   </entry>
   
