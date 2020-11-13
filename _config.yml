@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: cuiyuqin blog
-subtitle: subtitle
-description: cuiyuqin blog
-keywords:
-author: CuiYuQin
+title: hello world from cuiyuqin
+subtitle: 面朝大海，春暖花开
+description: cuiyuqin 个人博客
+keywords: "Hexo,Hexo主题,ayer,代码,博客,旅行"
+author: 崔玉勤
 language: zh-Hans
 timezone: Asia/Shanghai
+welcome: Talk is cheap. Show me the code. #面朝大海，春暖花开  
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -98,12 +99,61 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: ayer
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+#   type: 'git'
+#   repo: git@github.com:CuiYuQin/CuiYuQin.github.io.git
+#   branch: master
+#   message: 
+
 deploy:
-  type: 'git'
-  repo: git@github.com:CuiYuQin/CuiYuQin.github.io.git
-  branch: master
-  message: 
+- type: 'git'
+  message: "Github CI Auto Builder at {{ now('YYYY-MM-DD HH:mm:ss Z') }}"
+  repo: 
+    coding: git@e.coding.net:cuiyuqin/cuiyuqin/cuiyuqin.coding.me.git,master
+    github: git@github.com:CuiYuQin/CuiYuQin.github.io.git,master
+
+jsDelivr:
+  url: https://cdn.jsdelivr.net/gh/CuiYuQin/CuiYuQin.github.io.git
+
+# hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  format: html
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit: 140
+    content_limit_delim: ' '
+    order_by: -date	
+
+# aplayer:
+#   meting: true
+# 二次元
+live2d:
+  enable: false
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-wanko
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.5
+
