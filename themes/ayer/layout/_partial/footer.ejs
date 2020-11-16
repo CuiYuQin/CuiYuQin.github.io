@@ -1,17 +1,19 @@
 <footer class="footer">
-  <div class="outer">
+  <div class="outer" style="color:#777777;">
     <ul>
       <li>
-        Copyrights &copy;
+        © 2020 Cui Yu Qin
+        <!-- Copyrights &copy;
         <% if (theme.since && !isNaN(theme.since) && theme.since < date(new Date(), 'YYYY')) { %><%- theme.since%>-<% } %><%= date(new Date(), 'YYYY') %>
-        <i class="ri-heart-fill heart_icon"></i> <%= config.author || config.title %>
+        <i class="ri-heart-fill heart_icon"></i> 
+        <%= config.author || config.title %> -->
       </li>
     </ul>
     <ul>
       <li>
         <% if (theme.pageFooter){ %>
-        <% var hexoLink = '<a href="https://hexo.io" target="_blank">Hexo</a>'; %>
-        <% var themeLink = '<a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>'; %>
+        <% var hexoLink = '<a href="https://hexo.io" target="_blank" style="color:#404040;text-decoration: underline;">Hexo</a>'; %>
+        <% var themeLink = '<a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank" style="color:#404040;text-decoration: underline;">Ayer</a>'; %>
         <%- __('powered_by', hexoLink) %>
         <span class="division">|</span>
         <%- __('theme', themeLink) %>
@@ -43,8 +45,14 @@
     </ul>
     <ul>
       <li>
-          <i class="ri-github-fill"></i>
-          <i class="ri-mail-fill"></i>
+        <!-- 底部图标 -->
+        <a href="<%=theme.github.url%>"  target="_black" style="color: rgb(64, 62, 62);"> <i class="ri-github-fill"  ></i> </a>
+        <a href="mailto:15920170089@163.com"  target="_black" style="color: rgb(64, 62, 62);"> <i class="ri-mail-fill"></i> </a> 
+          
+        <!-- <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+          <i class="ri-wechat-fill"></i>
+        </a> -->
+
       </li>
     </ul>
     <ul>
