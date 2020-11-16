@@ -1,21 +1,19 @@
 ---
 title: About Me
-date: 2020-11-12 00:00:01
-tags: ['其他']
-categories: 其他
-no_word_count: true
-no_toc: true
+layout: "about"
+type: "about"
+date: 2020-11-12 00:00:00
 ---
 
+{% meting "530479" "netease" "song"  "mutex:false""fixed:true" "preload:metadata" "loop:all" "theme:#2980b9"%}
+
 > A developer, live in guangzhou, China.
-
-
 
 
 姓名：崔玉勤
 现居：广州
 GitHub: [https://github.com/CuiYuQin](https://github.com/CuiYuQin)
-email: [15920170089@163.com](15920170089@163.com)
+email: [15920170089@163.com](mailto:15920170089@163.com)
 微信: 15920170089
 
 <!-- more -->

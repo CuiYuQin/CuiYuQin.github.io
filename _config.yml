@@ -14,7 +14,7 @@ welcome: Talk is cheap. Show me the code. #面朝大海，春暖花开
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://cuiyuqin.github.io./
+url: https://cyqin.top/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -135,8 +135,9 @@ feed:
     content_limit_delim: ' '
     order_by: -date	
 
-# aplayer:
-#   meting: true
+aplayer:
+  meting: true
+
 # 二次元
 live2d:
   enable: false
