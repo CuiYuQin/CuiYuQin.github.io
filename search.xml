@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>免备案 CDN 推荐</title>
-    <url>/2020/08/26/nodecache/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近刚好需要用到免备案 CDN，所以查了下资料，使用一段时间后感觉 Nodecache 很不错 。<br>b<br>Nodecache 主要提供CDN、DNS、SSL 证书等业务，亚太节点有我们喜欢的香港线路，速度很不错。</p>
-<h2 id="一、Nodecache-注册"><a href="#一、Nodecache-注册" class="headerlink" title="一、Nodecache 注册"></a>一、Nodecache 注册</h2><p>官网地址：<a href="https://console-api.nodecache.com/f?aff=EKQw5r">https://www.nodecache.com</a></p>
-<p>注册流程非常简单，官网支持中文，直接打开注册就行，新用户注册赠送 500G 流量。</p>
-<p>也可以通过 <a href="https://console-api.nodecache.com/f?aff=EKQw5r">活动链接</a> 注册直接送 1T 流量 。</p>
-<a id="more"></a>
-
-<h2 id="二、配置CDN加速"><a href="#二、配置CDN加速" class="headerlink" title="二、配置CDN加速"></a>二、配置CDN加速</h2><p>登录 Nodecache 控制台，选择 CDN服务，进入配置管理页面</p>
-<p>Nodecache配置CDN和其它商家差不多，从Nodecache后台可以看出CDN功能还是挺丰富的，支持HTTP/2、Brotli压缩、自动适应webp这些新特性，感觉后台界面和又拍云非常相似。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/QIX3LKfa9VMirqF.webp.jpg" alt="snipaste_20190702_170358.png"></p>
-<h2 id="三、亚太节点"><a href="#三、亚太节点" class="headerlink" title="三、亚太节点"></a>三、亚太节点</h2><p>部署CDN的时候可选择面向全球、亚太、欧美等地区，我选择的是亚太节点，从分配的节点来看大陆地区全部走香港数据中心，速度和延迟都很不错。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/5kbrEfmLTKGq1oi.webp.jpg" alt="snipaste_20190702_170929.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>对于不想备案，并且希望国内访问速度比较理想的用户可以考虑下Nodecache，毕竟有香港节点加持，价格也不算贵。<br><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/1rEqHAtBZGYITXQ.webp.jpg" alt="20200827102625.png"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo-seo优化技巧</title>
     <url>/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>搭建的hexo博客如果不经过优化，在搜索引擎被收录的可能很小，SEO可以提高被搜到的几率</p>
@@ -66,6 +43,29 @@
 <p>新版 GoogleSearchConsole 测试 sitemap.xml 是否配置好</p>
 <p><a name="3676c080"></a></p>
 <h3 id="三-定期清除死链接"><a href="#三-定期清除死链接" class="headerlink" title="三. 定期清除死链接"></a>三. 定期清除死链接</h3><p><a href="https://www.google.com/webmasters/tools/removals">https://www.google.com/webmasters/tools/removals</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免备案 CDN 推荐</title>
+    <url>/2020/08/26/nodecache/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近刚好需要用到免备案 CDN，所以查了下资料，使用一段时间后感觉 Nodecache 很不错 。<br>b<br>Nodecache 主要提供CDN、DNS、SSL 证书等业务，亚太节点有我们喜欢的香港线路，速度很不错。</p>
+<h2 id="一、Nodecache-注册"><a href="#一、Nodecache-注册" class="headerlink" title="一、Nodecache 注册"></a>一、Nodecache 注册</h2><p>官网地址：<a href="https://console-api.nodecache.com/f?aff=EKQw5r">https://www.nodecache.com</a></p>
+<p>注册流程非常简单，官网支持中文，直接打开注册就行，新用户注册赠送 500G 流量。</p>
+<p>也可以通过 <a href="https://console-api.nodecache.com/f?aff=EKQw5r">活动链接</a> 注册直接送 1T 流量 。</p>
+<a id="more"></a>
+
+<h2 id="二、配置CDN加速"><a href="#二、配置CDN加速" class="headerlink" title="二、配置CDN加速"></a>二、配置CDN加速</h2><p>登录 Nodecache 控制台，选择 CDN服务，进入配置管理页面</p>
+<p>Nodecache配置CDN和其它商家差不多，从Nodecache后台可以看出CDN功能还是挺丰富的，支持HTTP/2、Brotli压缩、自动适应webp这些新特性，感觉后台界面和又拍云非常相似。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/QIX3LKfa9VMirqF.webp.jpg" alt="snipaste_20190702_170358.png"></p>
+<h2 id="三、亚太节点"><a href="#三、亚太节点" class="headerlink" title="三、亚太节点"></a>三、亚太节点</h2><p>部署CDN的时候可选择面向全球、亚太、欧美等地区，我选择的是亚太节点，从分配的节点来看大陆地区全部走香港数据中心，速度和延迟都很不错。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/5kbrEfmLTKGq1oi.webp.jpg" alt="snipaste_20190702_170929.png"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>对于不想备案，并且希望国内访问速度比较理想的用户可以考虑下Nodecache，毕竟有香港节点加持，价格也不算贵。<br><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/1rEqHAtBZGYITXQ.webp.jpg" alt="20200827102625.png"></p>
 ]]></content>
       <categories>
         <category>技术</category>
