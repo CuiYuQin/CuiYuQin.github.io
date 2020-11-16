@@ -6,7 +6,7 @@
   <link href="https://cyqin.top/atom.xml" rel="self"/>
   
   <link href="https://cyqin.top/"/>
-  <updated>2020-11-13T07:32:54.642Z</updated>
+  <updated>2020-11-13T06:48:39.151Z</updated>
   <id>https://cyqin.top/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>About Me</title>
-    <link href="https://cyqin.top/2020/11/12/about/"/>
-    <id>https://cyqin.top/2020/11/12/about/</id>
-    <published>2020-11-11T16:00:01.000Z</published>
-    <updated>2020-11-13T07:32:54.642Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;A developer, live in guangzhou, China.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;姓名：崔玉勤&lt;br&gt;现居：广州&lt;br&gt;GitHub: &lt;a href=&quot;https://github.com/CuiYuQin&quot;&gt;https://github.com/CuiYuQin&lt;/a&gt;&lt;br&gt;email: &lt;a href=&quot;15920170089@163.com&quot;&gt;15920170089@163.com&lt;/a&gt;&lt;br&gt;微信: 15920170089&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="其他" scheme="https://cyqin.top/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="其他" scheme="https://cyqin.top/tags/%E5%85%B6%E4%BB%96/"/>
-    
-  </entry>
   
   <entry>
     <title>免备案 CDN 推荐</title>
@@ -76,30 +54,6 @@
     
     
     <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网站搬家记录</title>
-    <link href="https://cyqin.top/2020/07/16/%E7%BD%91%E7%AB%99%E6%90%AC%E5%AE%B6%E8%AE%B0%E5%BD%95/"/>
-    <id>https://cyqin.top/2020/07/16/%E7%BD%91%E7%AB%99%E6%90%AC%E5%AE%B6%E8%AE%B0%E5%BD%95/</id>
-    <published>2020-07-16T12:45:28.000Z</published>
-    <updated>2020-11-13T03:49:08.232Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;记录第一次用宝塔面板搬迁wordpress网站，附性能优化+防黑。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;最近把网站从虚拟主机搬迁到了vps，由于是第一次搬网站，又不太懂运维和服务器知识，期间踩了不少坑，在此记录一下，也希望对遇到同样问题的朋友有所帮助。首先，如果你的流量比较大，为了不影响用户最好选准时间段，我的网站早晨是一个流量低谷，所以我是定好闹钟6点起床开搞的，记得在完成搬迁之前，原有服务器上的网站先别急着删掉，这样可以随时通过域名解析就能恢复。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="生活" scheme="https://cyqin.top/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -154,144 +108,6 @@
     
     
     <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>静享云南慢时光</title>
-    <link href="https://cyqin.top/2018/11/21/%E9%9D%99%E4%BA%AB%E4%BA%91%E5%8D%97%E6%85%A2%E6%97%B6%E5%85%89/"/>
-    <id>https://cyqin.top/2018/11/21/%E9%9D%99%E4%BA%AB%E4%BA%91%E5%8D%97%E6%85%A2%E6%97%B6%E5%85%89/</id>
-    <published>2018-11-20T16:17:37.000Z</published>
-    <updated>2020-11-13T03:49:08.234Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;当我坐着飞机掠过玉龙雪山，当我拿着杯子舀起泸沽湖水，当我沐浴阳光闻着洱海气息，当我立于海埂大坝望着海鸥随风翱翔，当我骑着自行车与彝族寨子擦肩而过……当我真正踏入这片土地，我发现它不仅仅是适合文艺小资青年，更适合热爱山水，热爱自由的背包客。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
-    
-    <category term="国内" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
-    
-    <category term="国内" scheme="https://cyqin.top/tags/%E5%9B%BD%E5%86%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>原汁原味黔东南</title>
-    <link href="https://cyqin.top/2018/11/21/%E5%8E%9F%E6%B1%81%E5%8E%9F%E5%91%B3%E9%BB%94%E4%B8%9C%E5%8D%97/"/>
-    <id>https://cyqin.top/2018/11/21/%E5%8E%9F%E6%B1%81%E5%8E%9F%E5%91%B3%E9%BB%94%E4%B8%9C%E5%8D%97/</id>
-    <published>2018-11-20T16:15:20.000Z</published>
-    <updated>2020-11-13T03:49:08.228Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;从昆明向东过来，我预选的目的地有两个，都匀和凯里。到都匀的话去荔波比较方便，到凯里的话去看黔东南苗寨比较方便。考虑到荔波在南边，而且交通不是很方便（目前正在建凯里到荔波的大路，建成后大巴过去还是挺方便的），如果从都匀过去的话也会浪费几天时间，所以就留下了这一程最遗憾的一点，就是没能去荔波看看喀斯特地貌（其实来之前我对荔波已经做足了攻略）。好在这一点遗憾马上就被朗德和镇远给弥补了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
-    
-    <category term="国内" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
-    
-    <category term="国内" scheme="https://cyqin.top/tags/%E5%9B%BD%E5%86%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大美湘西</title>
-    <link href="https://cyqin.top/2018/11/21/%E5%A4%A7%E7%BE%8E%E6%B9%98%E8%A5%BF/"/>
-    <id>https://cyqin.top/2018/11/21/%E5%A4%A7%E7%BE%8E%E6%B9%98%E8%A5%BF/</id>
-    <published>2018-11-20T16:13:57.000Z</published>
-    <updated>2020-11-13T03:49:08.228Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;为什么先写这篇？因为湘西是我云贵湘之行的最后一站，刚出怀化火车站，我对它的印象是很差的，首先是有很多莫名其妙的人会把你围得透不过气，各种请你住宿吃饭打车，甚至我在怀化汽车站上厕所还向我收费（我当然没有给）。之后我去了凤凰古镇，到的时候正好是晚上，周遭一片漆黑，只有中心地带比较热闹，古镇里还有小女孩强行推销鲜花，和苗族姑娘拍照也得收费。这是湘西给我的第一印象。就是商业化太严重了，我想，也或许是当地经济比较差的缘故吧。。这和政府在城市整治这方面有脱不开的关系。不过抛开这些不谈，整个湘西的风景还是值得一去的。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
-    
-    <category term="国内" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
-    
-    <category term="国内" scheme="https://cyqin.top/tags/%E5%9B%BD%E5%86%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>雅加达出差记</title>
-    <link href="https://cyqin.top/2017/12/24/%E9%9B%85%E5%8A%A0%E8%BE%BE%E5%87%BA%E5%B7%AE%E8%AE%B0/"/>
-    <id>https://cyqin.top/2017/12/24/%E9%9B%85%E5%8A%A0%E8%BE%BE%E5%87%BA%E5%B7%AE%E8%AE%B0/</id>
-    <published>2017-12-24T03:05:25.000Z</published>
-    <updated>2020-11-13T03:49:08.234Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;整理手机相册，发现还有一段回忆没整理，于是抽了这段闲暇时间把在 雅加达 的日子记录下来，希望有些经验也能帮到网友。&lt;/p&gt;
-&lt;p&gt;年初，因为出差的缘故，有幸去 雅加达 体验了一个多月的风土人情。刚开始我是十分不习惯的，毕竟异国他乡之前都没呆过这么久，而且饮食交通没国内那么方便。好在之前去过 越南 ，知道 东南亚 国家都是这样的经济状况，没过几天也适应了，后来慢慢的发现，自己还是挺享受这种简单的生活。至于历史上的恩怨只是老一辈人的谈资，年轻人还是很友好的。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
-    
-    <category term="东南亚" scheme="https://cyqin.top/tags/%E4%B8%9C%E5%8D%97%E4%BA%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>春节越南行</title>
-    <link href="https://cyqin.top/2017/01/27/%E6%98%A5%E8%8A%82%E8%B6%8A%E5%8D%97%E8%A1%8C/"/>
-    <id>https://cyqin.top/2017/01/27/%E6%98%A5%E8%8A%82%E8%B6%8A%E5%8D%97%E8%A1%8C/</id>
-    <published>2017-01-27T12:25:55.000Z</published>
-    <updated>2020-11-13T03:49:08.232Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;我的所爱，在海云之间。&quot;&gt;&lt;a href=&quot;#我的所爱，在海云之间。&quot; class=&quot;headerlink&quot; title=&quot;我的所爱，在海云之间。&quot;&gt;&lt;/a&gt;我的所爱，在海云之间。&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;最喜欢骑着摩托在海云岭上拉到最大马力的感觉~&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;刚开始想去越南只是听朋友说物价便宜，人美景也美，尤其是有海滩，决定下来之后就开始查很多网友的攻略，后来发现看攻略根本记不住啥，说来说去都是这么几个注意点。上班的时候就没啥心思了，很期待这场旅行，本来假期就不多，春节正好可以躲避寒冬，于是约了个好友一起去，人均花费在4000左右吧，要是平时去估计能便宜一半。我选择了在年三十就出发，即使是这样，我们真正玩的时间也只有三天，有大半时间都浪费在了路上，不过这一路上的经历回想起来也挺有意思的。在此还是强烈推荐平时淡季去，春节机票贵，火车票又一票难求，如果是淡季去的话直飞是最爽快的了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/categories/%E6%97%85%E8%A1%8C/"/>
-    
-    
-    <category term="旅行" scheme="https://cyqin.top/tags/%E6%97%85%E8%A1%8C/"/>
-    
-    <category term="东南亚" scheme="https://cyqin.top/tags/%E4%B8%9C%E5%8D%97%E4%BA%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>手机摄影学习笔记</title>
-    <link href="https://cyqin.top/2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>https://cyqin.top/2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
-    <published>2016-09-07T07:06:00.000Z</published>
-    <updated>2020-11-13T03:49:08.229Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;焦距&quot;&gt;&lt;a href=&quot;#焦距&quot; class=&quot;headerlink&quot; title=&quot;焦距&quot;&gt;&lt;/a&gt;焦距&lt;/h2&gt;&lt;p&gt;1.广角：28mm，长焦800&lt;br&gt;2.光圈&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习" scheme="https://cyqin.top/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="学习" scheme="https://cyqin.top/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="随笔" scheme="https://cyqin.top/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-    <category term="摄影" scheme="https://cyqin.top/tags/%E6%91%84%E5%BD%B1/"/>
     
   </entry>
   
