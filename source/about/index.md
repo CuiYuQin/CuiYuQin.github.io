@@ -7,7 +7,7 @@ date: 2020-11-12 00:00:00
 
 {% meting "530479" "netease" "song"  "mutex:false""fixed:true" "preload:metadata" "loop:all" "theme:#2980b9"%}
 
-> A developer, live in guangzhou, China.
+> A developer, live in guangzhou, China. 😜
 
 
 姓名：崔玉勤
