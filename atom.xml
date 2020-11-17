@@ -3,11 +3,11 @@
   <title>HELLO WORLD FROM cyqin</title>
   
   <subtitle>面朝大海，春暖花开</subtitle>
-  <link href="https://cyqin.top/atom.xml" rel="self"/>
+  <link href="https://cuiyuqin.github.io/atom.xml" rel="self"/>
   
-  <link href="https://cyqin.top/"/>
+  <link href="https://cuiyuqin.github.io/"/>
   <updated>2020-11-13T06:48:39.151Z</updated>
-  <id>https://cyqin.top/</id>
+  <id>https://cuiyuqin.github.io/</id>
   
   <author>
     <name>崔玉勤</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>免备案 CDN 推荐</title>
-    <link href="https://cyqin.top/2020/08/26/nodecache/"/>
-    <id>https://cyqin.top/2020/08/26/nodecache/</id>
+    <link href="https://cuiyuqin.github.io/2020/08/26/nodecache/"/>
+    <id>https://cuiyuqin.github.io/2020/08/26/nodecache/</id>
     <published>2020-08-26T15:33:35.000Z</published>
     <updated>2020-11-13T06:48:39.151Z</updated>
     
@@ -31,17 +31,17 @@
     
     
     
-    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cuiyuqin.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cuiyuqin.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>mysql踩坑记录</title>
-    <link href="https://cyqin.top/2020/08/26/mysql/"/>
-    <id>https://cyqin.top/2020/08/26/mysql/</id>
+    <link href="https://cuiyuqin.github.io/2020/08/26/mysql/"/>
+    <id>https://cuiyuqin.github.io/2020/08/26/mysql/</id>
     <published>2020-08-26T14:02:10.000Z</published>
     <updated>2020-11-13T07:03:42.307Z</updated>
     
@@ -50,17 +50,17 @@
     
     
     
-    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cuiyuqin.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cuiyuqin.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>hexo-seo优化技巧</title>
-    <link href="https://cyqin.top/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/"/>
-    <id>https://cyqin.top/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</id>
+    <link href="https://cuiyuqin.github.io/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/"/>
+    <id>https://cuiyuqin.github.io/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</id>
     <published>2020-06-16T14:32:38.000Z</published>
     <updated>2020-11-13T03:49:08.219Z</updated>
     
@@ -77,17 +77,17 @@
     
     
     
-    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cuiyuqin.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cuiyuqin.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>Ayer中文说明</title>
-    <link href="https://cyqin.top/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/"/>
-    <id>https://cyqin.top/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</id>
+    <link href="https://cuiyuqin.github.io/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/"/>
+    <id>https://cuiyuqin.github.io/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</id>
     <published>2019-12-03T05:26:02.000Z</published>
     <updated>2020-11-13T07:03:35.824Z</updated>
     
@@ -104,10 +104,10 @@
     
     
     
-    <category term="技术" scheme="https://cyqin.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cuiyuqin.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术" scheme="https://cyqin.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://cuiyuqin.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
