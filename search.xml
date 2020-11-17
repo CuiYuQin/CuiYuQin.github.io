@@ -1,122 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>免备案 CDN 推荐</title>
-    <url>/2020/08/26/nodecache/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近刚好需要用到免备案 CDN，所以查了下资料，使用一段时间后感觉 Nodecache 很不错 。<br>b<br>Nodecache 主要提供CDN、DNS、SSL 证书等业务，亚太节点有我们喜欢的香港线路，速度很不错。</p>
-<h2 id="一、Nodecache-注册"><a href="#一、Nodecache-注册" class="headerlink" title="一、Nodecache 注册"></a>一、Nodecache 注册</h2><p>官网地址：<a href="https://console-api.nodecache.com/f?aff=EKQw5r">https://www.nodecache.com</a></p>
-<p>注册流程非常简单，官网支持中文，直接打开注册就行，新用户注册赠送 500G 流量。</p>
-<p>也可以通过 <a href="https://console-api.nodecache.com/f?aff=EKQw5r">活动链接</a> 注册直接送 1T 流量 。</p>
-<a id="more"></a>
-
-<h2 id="二、配置CDN加速"><a href="#二、配置CDN加速" class="headerlink" title="二、配置CDN加速"></a>二、配置CDN加速</h2><p>登录 Nodecache 控制台，选择 CDN服务，进入配置管理页面</p>
-<p>Nodecache配置CDN和其它商家差不多，从Nodecache后台可以看出CDN功能还是挺丰富的，支持HTTP/2、Brotli压缩、自动适应webp这些新特性，感觉后台界面和又拍云非常相似。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/QIX3LKfa9VMirqF.webp.jpg" alt="snipaste_20190702_170358.png"></p>
-<h2 id="三、亚太节点"><a href="#三、亚太节点" class="headerlink" title="三、亚太节点"></a>三、亚太节点</h2><p>部署CDN的时候可选择面向全球、亚太、欧美等地区，我选择的是亚太节点，从分配的节点来看大陆地区全部走香港数据中心，速度和延迟都很不错。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/5kbrEfmLTKGq1oi.webp.jpg" alt="snipaste_20190702_170929.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>对于不想备案，并且希望国内访问速度比较理想的用户可以考虑下Nodecache，毕竟有香港节点加持，价格也不算贵。<br><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/1rEqHAtBZGYITXQ.webp.jpg" alt="20200827102625.png"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mysql踩坑记录</title>
-    <url>/2020/08/26/mysql/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>事情起因是这样的，我最近想着写个用python爬取某网站音频并写入数据库的脚本，由于之前操作数据库都是在线上直接改，没有本地连过，所以本地的pymysql想连我网站的数据库，第一步是要把user表的localhost改成%，以此开放远程连接，问题就来了，我在phpmyadmin改完之后，居然所有账号都登不上了，也不知道哪出了问题，可能是我敲错了吧。然后我又找了一篇新建root用户的博文，跟着敲，敲完之后确实能登上去了。但是！这时候只能看到information_schema这一个数据库了，这时候网站也挂了，我以为数据库被误删了，就找各种方法想还原数据库。折腾半天，我终于解决了，我觉得有必要记录一下踩坑过程。</p>
-<a id="more"></a>
-
-<p><strong>只能看到information_schema的原因：用户没权限，而不是数据库被误删了。</strong></p>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>按下面的解决步骤执行到第4步，如果执行 <code>show databases;</code>命令之后，数据库都显示出来了，那么就是root用户没给够权限，按下面的步骤走完，重启mysql就行了。</p>
-<ol>
-<li>找到 <code>/etc/my.conf</code> 文件，在 <code>[mysqld]</code> 一行下面加上 <code>skip-grant-tables</code>，跳过权限验证。</li>
-<li>然后运行 <code>service mysqld restart</code> 重启一下<code>mysql</code>，注意是<code>mysqld</code>不是<code>mysql</code>。</li>
-<li>运行 <code>mysql -u root -p</code> 登录root用户。</li>
-<li>登录成功后可以用 <code>show databases;</code>命令 看看所有的数据库是否都显示出来了。注意记得加上<code>;</code> </li>
-<li>执行：<code>use mysql;</code> 这时候显示 <code>Database changed</code></li>
-<li>执行：<code>flush privileges;</code></li>
-<li>执行：<code>grant all privileges on *.* to root@&#39;localhost&#39; identified by &quot;a123456&quot; with grant option; </code>，这一步是很重要的一步，就是为了把所有权限授予给root用户</li>
-<li>去掉第一步 <code>/etc/my.conf</code> 文件里的<code>skip-grant-tables</code></li>
-<li>执行：<code>service mysqld restart</code>，重启mysql</li>
-</ol>
-<p>最后查看root用户权限</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> mysql.user <span class="keyword">where</span> <span class="keyword">user</span>=<span class="string">&#x27;root&#x27;</span>\G;</span><br></pre></td></tr></table></figure>
-<p>可以看到都显示是Y，这就成功了。</p>
-<h2 id="localhost受限制"><a href="#localhost受限制" class="headerlink" title="localhost受限制"></a>localhost受限制</h2><p>如果以上用 <code>mysql -u root -p</code> 无法登录，先保证密码是对的，然后尝试用127.0.0.1登录，执行 <code>mysql -u root -p 数据库 -h 127.0.0.1</code> ，如果可以登录，那么就是localhost受限制。执行以上第7步就行了。</p>
-<p><strong>下面解释上面第7步赋予权限命令的含义</strong></p>
-<p>all privileges：表示将所有权限授予给用户。也可指定具体的权限，如：SELECT、CREATE、DROP等。</p>
-<p>on：表示这些权限对哪些数据库和表生效，格式：数据库名.表名，这里写“*”表示所有数据库，所有表。如果我要指定将权限应用到test库的user表中，可以这么写：test.user</p>
-<p>to：将权限授予哪个用户。格式：”用户名”@”登录IP或域名”。%表示没有限制，在任何主机都可以登录。比如：”root”@”192.168.0.%”，表示root这个用户只能在192.168.0IP段登录</p>
-<p>identified by：指定用户的登录密码</p>
-<p>with grant option：表示允许用户将自己的权限授权给其它用户</p>
-<p>root用户可以登录，其他用户不行</p>
-<p>把其他user也按照上面同样的命令开放权限</p>
-<h2 id="拓展知识"><a href="#拓展知识" class="headerlink" title="拓展知识"></a>拓展知识</h2><p>mysql 是个命令行程序；mysqld 是服务。linux 系统里一般的服务都是以 d 结尾的，比如 httpd，vsftpd 等等。d 的全拼应该是 daemon，也就是守护程序的意思，常驻于后台。</p>
-<p>千万要定期备份数据库！显示不出数据库别慌张，很大概率是用户权限的问题，如果真的不小心把数据库删了，可以通过 <code>mysqlbinlog</code> 命令将二进制日志文件恢复到数据库。</p>
-<p>另外想说，网上很多博文真的是误人子弟，博客园csdn一大堆复制粘贴，最后连命令都没粘贴对，对于不懂数据库linux操作的，还是要学习一下基本知识。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-seo优化技巧</title>
-    <url>/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>搭建的hexo博客如果不经过优化，在搜索引擎被收录的可能很小，SEO可以提高被搜到的几率</p>
-<p><a name="04ad26dd"></a></p>
-<h3 id="一-生成-sitemap-文件"><a href="#一-生成-sitemap-文件" class="headerlink" title="一. 生成 sitemap 文件"></a>一. 生成 sitemap 文件</h3><p>需要先安装两个 hexo 插件：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save		</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-
-<p>打开配置文件<code>_config.yml</code>添加</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">	<span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">	<span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
-
-<p>再重启 hexo，在本地访问 <a href="">localhost:4000/sitemap.xml</a>和 <a href="">localhost:4000/baidusitemap.xml</a> 就能正确的展示出两个sitemap 文件了。</p>
-<a id="more"></a>
-
-<p><a name="0951f961"></a></p>
-<h3 id="二-推送到-谷歌-和-百度"><a href="#二-推送到-谷歌-和-百度" class="headerlink" title="二. 推送到 谷歌 和 百度"></a>二. 推送到 谷歌 和 百度</h3><p><a name="c58b62e5"></a></p>
-<h4 id="1-百度-→-添加个人网站"><a href="#1-百度-→-添加个人网站" class="headerlink" title="1. 百度 → 添加个人网站"></a>1. 百度 → <a href="https://ziyuan.baidu.com/site/siteadd?siteurl=">添加个人网站</a></h4><p>添加文件方式不可行，hexo会处理html文件</p>
-<p>所以选择，在 head.ejs 里添加 html 标签</p>
-<p>1.1 <a href="https://ziyuan.baidu.com/linksubmit/index">手动提交baidusitemap.xml</a>(里面也有自动提交的代码)</p>
-<p>1.2 可以用”抓取诊断”，手动-百度抓取</p>
-<p>1.3 Robots → 检测并更新</p>
-<p><a name="53dfa5ae"></a></p>
-<h4 id="2-谷歌-→-添加个人网站"><a href="#2-谷歌-→-添加个人网站" class="headerlink" title="2. 谷歌 → 添加个人网站"></a>2. 谷歌 → <a href="https://search.google.com/search-console/welcome">添加个人网站</a></h4><p>类似百度 ，也是在 head.ejs 里添加 html 标签</p>
-<blockquote>
-<p>验证通过就好，过两天左右 百度和谷歌就能收录你的站点</p>
-</blockquote>
-<blockquote>
-<p>测试方式: (分别在 google 和 baidu 搜索)</p>
-</blockquote>
-<blockquote>
-<p>site: shen-yu.gitee.io</p>
-</blockquote>
-<p><a name="dc54d512"></a></p>
-<h5 id="2-1-手动提交sitemap，甚至是单个网站"><a href="#2-1-手动提交sitemap，甚至是单个网站" class="headerlink" title="2.1 手动提交sitemap，甚至是单个网站"></a>2.1 手动提交sitemap，甚至是单个网站</h5><p><a name="19cedad5"></a></p>
-<h5 id="GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交"><a href="#GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交" class="headerlink" title="GoogleSearchConsole → 站点地图 → 输入sitemap.xml → 提交"></a><a href="https://search.google.com/search-console">GoogleSearchConsole</a> → 站点地图 → 输入sitemap.xml → 提交</h5><p><a name="39dffe8d"></a></p>
-<h5 id="2-2-robots配置"><a href="#2-2-robots配置" class="headerlink" title="2.2 robots配置"></a>2.2 robots配置</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;home&#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;about&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
-
-<p>Allow表示允许被访问的，Disallow是不允许的意思。注意后面两个Sitemap就是网站地图了。而网站地图前面说了是给爬虫用的。这里配置在robots中。</p>
-<p><a name="c35bfb76"></a></p>
-<h5 id="2-3-测试"><a href="#2-3-测试" class="headerlink" title="2.3 测试"></a>2.3 测试</h5><p>旧版 GoogleSearchConsole 测试 robots.txt  是否配置好</p>
-<p>新版 GoogleSearchConsole 测试 sitemap.xml 是否配置好</p>
-<p><a name="3676c080"></a></p>
-<h3 id="三-定期清除死链接"><a href="#三-定期清除死链接" class="headerlink" title="三. 定期清除死链接"></a>三. 定期清除死链接</h3><p><a href="https://www.google.com/webmasters/tools/removals">https://www.google.com/webmasters/tools/removals</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Ayer中文说明</title>
     <url>/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><blockquote>
@@ -270,6 +154,122 @@
 <h2 id="八-网易云音乐无法播放"><a href="#八-网易云音乐无法播放" class="headerlink" title="八.网易云音乐无法播放"></a>八.网易云音乐无法播放</h2><p>这是由于网易云音乐对部分歌曲做了版权限制，你可以多换几首试试，配置文件里的默认歌曲 <code>潮鳴り</code> 是可以播放的。如果你动手能力强，也可以试试音乐播放插件 <a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">hexo-tag-aplayer</a>，配合<code>MetingJS</code>可以支持对于 QQ音乐、网易云、虾米、酷狗、百度等平台的音乐播放。</p>
 <h2 id="九-分享链接无法打开"><a href="#九-分享链接无法打开" class="headerlink" title="九.分享链接无法打开"></a>九.分享链接无法打开</h2><p>你需要在 Hexo 博客目录下的 <code>_config.yml</code> 文件中把 url 配置成部署后的域名。</p>
 <h2 id="十-怎么让搜索引擎收录站点"><a href="#十-怎么让搜索引擎收录站点" class="headerlink" title="十.怎么让搜索引擎收录站点"></a>十.怎么让搜索引擎收录站点</h2><p>参考：<a href="/2020/hexo-seo">Hexo站点SEO优化技巧</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免备案 CDN 推荐</title>
+    <url>/2020/08/26/nodecache/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近刚好需要用到免备案 CDN，所以查了下资料，使用一段时间后感觉 Nodecache 很不错 。<br>b<br>Nodecache 主要提供CDN、DNS、SSL 证书等业务，亚太节点有我们喜欢的香港线路，速度很不错。</p>
+<h2 id="一、Nodecache-注册"><a href="#一、Nodecache-注册" class="headerlink" title="一、Nodecache 注册"></a>一、Nodecache 注册</h2><p>官网地址：<a href="https://console-api.nodecache.com/f?aff=EKQw5r">https://www.nodecache.com</a></p>
+<p>注册流程非常简单，官网支持中文，直接打开注册就行，新用户注册赠送 500G 流量。</p>
+<p>也可以通过 <a href="https://console-api.nodecache.com/f?aff=EKQw5r">活动链接</a> 注册直接送 1T 流量 。</p>
+<a id="more"></a>
+
+<h2 id="二、配置CDN加速"><a href="#二、配置CDN加速" class="headerlink" title="二、配置CDN加速"></a>二、配置CDN加速</h2><p>登录 Nodecache 控制台，选择 CDN服务，进入配置管理页面</p>
+<p>Nodecache配置CDN和其它商家差不多，从Nodecache后台可以看出CDN功能还是挺丰富的，支持HTTP/2、Brotli压缩、自动适应webp这些新特性，感觉后台界面和又拍云非常相似。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/QIX3LKfa9VMirqF.webp.jpg" alt="snipaste_20190702_170358.png"></p>
+<h2 id="三、亚太节点"><a href="#三、亚太节点" class="headerlink" title="三、亚太节点"></a>三、亚太节点</h2><p>部署CDN的时候可选择面向全球、亚太、欧美等地区，我选择的是亚太节点，从分配的节点来看大陆地区全部走香港数据中心，速度和延迟都很不错。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/5kbrEfmLTKGq1oi.webp.jpg" alt="snipaste_20190702_170929.png"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>对于不想备案，并且希望国内访问速度比较理想的用户可以考虑下Nodecache，毕竟有香港节点加持，价格也不算贵。<br><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/1rEqHAtBZGYITXQ.webp.jpg" alt="20200827102625.png"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mysql踩坑记录</title>
+    <url>/2020/08/26/mysql/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>事情起因是这样的，我最近想着写个用python爬取某网站音频并写入数据库的脚本，由于之前操作数据库都是在线上直接改，没有本地连过，所以本地的pymysql想连我网站的数据库，第一步是要把user表的localhost改成%，以此开放远程连接，问题就来了，我在phpmyadmin改完之后，居然所有账号都登不上了，也不知道哪出了问题，可能是我敲错了吧。然后我又找了一篇新建root用户的博文，跟着敲，敲完之后确实能登上去了。但是！这时候只能看到information_schema这一个数据库了，这时候网站也挂了，我以为数据库被误删了，就找各种方法想还原数据库。折腾半天，我终于解决了，我觉得有必要记录一下踩坑过程。</p>
+<a id="more"></a>
+
+<p><strong>只能看到information_schema的原因：用户没权限，而不是数据库被误删了。</strong></p>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>按下面的解决步骤执行到第4步，如果执行 <code>show databases;</code>命令之后，数据库都显示出来了，那么就是root用户没给够权限，按下面的步骤走完，重启mysql就行了。</p>
+<ol>
+<li>找到 <code>/etc/my.conf</code> 文件，在 <code>[mysqld]</code> 一行下面加上 <code>skip-grant-tables</code>，跳过权限验证。</li>
+<li>然后运行 <code>service mysqld restart</code> 重启一下<code>mysql</code>，注意是<code>mysqld</code>不是<code>mysql</code>。</li>
+<li>运行 <code>mysql -u root -p</code> 登录root用户。</li>
+<li>登录成功后可以用 <code>show databases;</code>命令 看看所有的数据库是否都显示出来了。注意记得加上<code>;</code> </li>
+<li>执行：<code>use mysql;</code> 这时候显示 <code>Database changed</code></li>
+<li>执行：<code>flush privileges;</code></li>
+<li>执行：<code>grant all privileges on *.* to root@&#39;localhost&#39; identified by &quot;a123456&quot; with grant option; </code>，这一步是很重要的一步，就是为了把所有权限授予给root用户</li>
+<li>去掉第一步 <code>/etc/my.conf</code> 文件里的<code>skip-grant-tables</code></li>
+<li>执行：<code>service mysqld restart</code>，重启mysql</li>
+</ol>
+<p>最后查看root用户权限</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> mysql.user <span class="keyword">where</span> <span class="keyword">user</span>=<span class="string">&#x27;root&#x27;</span>\G;</span><br></pre></td></tr></table></figure>
+<p>可以看到都显示是Y，这就成功了。</p>
+<h2 id="localhost受限制"><a href="#localhost受限制" class="headerlink" title="localhost受限制"></a>localhost受限制</h2><p>如果以上用 <code>mysql -u root -p</code> 无法登录，先保证密码是对的，然后尝试用127.0.0.1登录，执行 <code>mysql -u root -p 数据库 -h 127.0.0.1</code> ，如果可以登录，那么就是localhost受限制。执行以上第7步就行了。</p>
+<p><strong>下面解释上面第7步赋予权限命令的含义</strong></p>
+<p>all privileges：表示将所有权限授予给用户。也可指定具体的权限，如：SELECT、CREATE、DROP等。</p>
+<p>on：表示这些权限对哪些数据库和表生效，格式：数据库名.表名，这里写“*”表示所有数据库，所有表。如果我要指定将权限应用到test库的user表中，可以这么写：test.user</p>
+<p>to：将权限授予哪个用户。格式：”用户名”@”登录IP或域名”。%表示没有限制，在任何主机都可以登录。比如：”root”@”192.168.0.%”，表示root这个用户只能在192.168.0IP段登录</p>
+<p>identified by：指定用户的登录密码</p>
+<p>with grant option：表示允许用户将自己的权限授权给其它用户</p>
+<p>root用户可以登录，其他用户不行</p>
+<p>把其他user也按照上面同样的命令开放权限</p>
+<h2 id="拓展知识"><a href="#拓展知识" class="headerlink" title="拓展知识"></a>拓展知识</h2><p>mysql 是个命令行程序；mysqld 是服务。linux 系统里一般的服务都是以 d 结尾的，比如 httpd，vsftpd 等等。d 的全拼应该是 daemon，也就是守护程序的意思，常驻于后台。</p>
+<p>千万要定期备份数据库！显示不出数据库别慌张，很大概率是用户权限的问题，如果真的不小心把数据库删了，可以通过 <code>mysqlbinlog</code> 命令将二进制日志文件恢复到数据库。</p>
+<p>另外想说，网上很多博文真的是误人子弟，博客园csdn一大堆复制粘贴，最后连命令都没粘贴对，对于不懂数据库linux操作的，还是要学习一下基本知识。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-seo优化技巧</title>
+    <url>/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>搭建的hexo博客如果不经过优化，在搜索引擎被收录的可能很小，SEO可以提高被搜到的几率</p>
+<p><a name="04ad26dd"></a></p>
+<h3 id="一-生成-sitemap-文件"><a href="#一-生成-sitemap-文件" class="headerlink" title="一. 生成 sitemap 文件"></a>一. 生成 sitemap 文件</h3><p>需要先安装两个 hexo 插件：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save		</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+
+<p>打开配置文件<code>_config.yml</code>添加</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">	<span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">	<span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
+
+<p>再重启 hexo，在本地访问 <a href="">localhost:4000/sitemap.xml</a>和 <a href="">localhost:4000/baidusitemap.xml</a> 就能正确的展示出两个sitemap 文件了。</p>
+<a id="more"></a>
+
+<p><a name="0951f961"></a></p>
+<h3 id="二-推送到-谷歌-和-百度"><a href="#二-推送到-谷歌-和-百度" class="headerlink" title="二. 推送到 谷歌 和 百度"></a>二. 推送到 谷歌 和 百度</h3><p><a name="c58b62e5"></a></p>
+<h4 id="1-百度-→-添加个人网站"><a href="#1-百度-→-添加个人网站" class="headerlink" title="1. 百度 → 添加个人网站"></a>1. 百度 → <a href="https://ziyuan.baidu.com/site/siteadd?siteurl=">添加个人网站</a></h4><p>添加文件方式不可行，hexo会处理html文件</p>
+<p>所以选择，在 head.ejs 里添加 html 标签</p>
+<p>1.1 <a href="https://ziyuan.baidu.com/linksubmit/index">手动提交baidusitemap.xml</a>(里面也有自动提交的代码)</p>
+<p>1.2 可以用”抓取诊断”，手动-百度抓取</p>
+<p>1.3 Robots → 检测并更新</p>
+<p><a name="53dfa5ae"></a></p>
+<h4 id="2-谷歌-→-添加个人网站"><a href="#2-谷歌-→-添加个人网站" class="headerlink" title="2. 谷歌 → 添加个人网站"></a>2. 谷歌 → <a href="https://search.google.com/search-console/welcome">添加个人网站</a></h4><p>类似百度 ，也是在 head.ejs 里添加 html 标签</p>
+<blockquote>
+<p>验证通过就好，过两天左右 百度和谷歌就能收录你的站点</p>
+</blockquote>
+<blockquote>
+<p>测试方式: (分别在 google 和 baidu 搜索)</p>
+</blockquote>
+<blockquote>
+<p>site: shen-yu.gitee.io</p>
+</blockquote>
+<p><a name="dc54d512"></a></p>
+<h5 id="2-1-手动提交sitemap，甚至是单个网站"><a href="#2-1-手动提交sitemap，甚至是单个网站" class="headerlink" title="2.1 手动提交sitemap，甚至是单个网站"></a>2.1 手动提交sitemap，甚至是单个网站</h5><p><a name="19cedad5"></a></p>
+<h5 id="GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交"><a href="#GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交" class="headerlink" title="GoogleSearchConsole → 站点地图 → 输入sitemap.xml → 提交"></a><a href="https://search.google.com/search-console">GoogleSearchConsole</a> → 站点地图 → 输入sitemap.xml → 提交</h5><p><a name="39dffe8d"></a></p>
+<h5 id="2-2-robots配置"><a href="#2-2-robots配置" class="headerlink" title="2.2 robots配置"></a>2.2 robots配置</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;home&#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;about&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
+
+<p>Allow表示允许被访问的，Disallow是不允许的意思。注意后面两个Sitemap就是网站地图了。而网站地图前面说了是给爬虫用的。这里配置在robots中。</p>
+<p><a name="c35bfb76"></a></p>
+<h5 id="2-3-测试"><a href="#2-3-测试" class="headerlink" title="2.3 测试"></a>2.3 测试</h5><p>旧版 GoogleSearchConsole 测试 robots.txt  是否配置好</p>
+<p>新版 GoogleSearchConsole 测试 sitemap.xml 是否配置好</p>
+<p><a name="3676c080"></a></p>
+<h3 id="三-定期清除死链接"><a href="#三-定期清除死链接" class="headerlink" title="三. 定期清除死链接"></a>三. 定期清除死链接</h3><p><a href="https://www.google.com/webmasters/tools/removals">https://www.google.com/webmasters/tools/removals</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
