@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HELLO WORLD FROM CUIYUQIN
-subtitle: 面朝大海，春暖花开
+title: HELLO WORLD FROM cyqin
+subtitle: 
 description: cuiyuqin 个人博客
-keywords: "Hexo,Hexo主题,ayer,代码,博客,旅行"
+keywords: "Hexo,Hexo主题,ayer,代码,博客,算法,计算机"
 author: 崔玉勤
 language: zh-Hans
 timezone: Asia/Shanghai
@@ -14,7 +14,11 @@ welcome: Talk is cheap. Show me the code. #面朝大海，春暖花开
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://cyqin.top/
+
+# url: http://cyqin.gitee.io
+
+url: https://cuiyuqin.github.io
+
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -42,7 +46,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -112,12 +116,15 @@ theme: ayer
 deploy:
 - type: 'git'
   message: "Github CI Auto Builder at {{ now('YYYY-MM-DD HH:mm:ss Z') }}"
+  # message: "Gitee CI Auto Builder at {{ now('YYYY-MM-DD HH:mm:ss Z') }}"
   repo: 
-    coding: git@e.coding.net:cuiyuqin/cuiyuqin/cuiyuqin.coding.me.git,master
+    # coding: git@e.coding.net:cuiyuqin/cuiyuqin/cuiyuqin.coding.me.git,master
     github: git@github.com:CuiYuQin/CuiYuQin.github.io.git,master
+    # gitee: git@gitee.com:cyqin/cyqin.git
 
 jsDelivr:
   url: https://cdn.jsdelivr.net/gh/CuiYuQin/CuiYuQin.github.io.git
+
 
 # hexo-generator-searchdb
 search:
@@ -157,4 +164,3 @@ live2d:
     show: true
   react:
     opacity: 0.5
-
