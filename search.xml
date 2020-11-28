@@ -185,6 +185,15 @@
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/2020/11/28/test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/2020/11/28/test/1.jpg"></p>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>计算机网络-简介</title>
     <url>/2020/11/19/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
@@ -272,7 +281,7 @@
 <p>打开配置文件<code>_config.yml</code>添加</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">	<span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">	<span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
 
-<p>再重启 hexo，在本地访问 <a href="">localhost:4000/sitemap.xml</a>和 <a href="">localhost:4000/baidusitemap.xml</a> 就能正确的展示出两个sitemap 文件了。</p>
+<p>再重启 hexo，在本地访问 <a href>localhost:4000/sitemap.xml</a>和 <a href>localhost:4000/baidusitemap.xml</a> 就能正确的展示出两个sitemap 文件了。</p>
 <a id="more"></a>
 
 <p><a name="0951f961"></a></p>

@@ -6,7 +6,7 @@
   <link href="http://cyqin.gitee.io/atom.xml" rel="self"/>
   
   <link href="http://cyqin.gitee.io/"/>
-  <updated>2020-11-19T03:38:19.046Z</updated>
+  <updated>2020-11-28T13:42:02.215Z</updated>
   <id>http://cyqin.gitee.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://cyqin.gitee.io/2020/11/28/test/"/>
+    <id>http://cyqin.gitee.io/2020/11/28/test/</id>
+    <published>2020-11-28T13:41:18.000Z</published>
+    <updated>2020-11-28T13:42:02.215Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://cyqin.gitee.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>计算机网络-简介</title>
@@ -127,7 +150,7 @@
 &lt;p&gt;打开配置文件&lt;code&gt;_config.yml&lt;/code&gt;添加&lt;/p&gt;
 &lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;sitemap:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attr&quot;&gt;path:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;sitemap.xml&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;baidusitemap:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attr&quot;&gt;path:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;baidusitemap.xml&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
-&lt;p&gt;再重启 hexo，在本地访问 &lt;a href=&quot;&quot;&gt;localhost:4000/sitemap.xml&lt;/a&gt;和 &lt;a href=&quot;&quot;&gt;localhost:4000/baidusitemap.xml&lt;/a&gt; 就能正确的展示出两个sitemap 文件了。&lt;/p&gt;</summary>
+&lt;p&gt;再重启 hexo，在本地访问 &lt;a href&gt;localhost:4000/sitemap.xml&lt;/a&gt;和 &lt;a href&gt;localhost:4000/baidusitemap.xml&lt;/a&gt; 就能正确的展示出两个sitemap 文件了。&lt;/p&gt;</summary>
     
     
     
