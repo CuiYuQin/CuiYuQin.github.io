@@ -13,7 +13,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    Archives: 2020/6 |  HELLO WORLD FROM cyqin
+    算法思想-贪心算法 |  HELLO WORLD FROM cyqin
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -52,51 +52,203 @@
 
     <main class="content on">
       <section class="outer">
-  
-  <article class="articles">
+  <article
+  id="post-算法思想-贪心算法"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
     
-    
-    <h1 class="page-type-title">ARCHIVES</h1>
-    
-    
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2020" class="archive-year">2020</a>
-    </div>
-    <div class="archives">
-      
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/" class="archive-article-date">
-  <time datetime="2020-06-16T14:32:38.000Z" itemprop="datePublished">06/16</time>
-</a>
+    <header class="article-header">
        
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/"
-    >hexo-seo优化技巧</a> 
-</h2>
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  算法思想-贪心算法
+</h1>
  
 
     </header>
-    
-    
+     
+    <div class="article-meta">
+      <a href="/2020/11/01/%E7%AE%97%E6%B3%95%E6%80%9D%E6%83%B3-%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/" class="article-date">
+  <time datetime="2020-11-01T02:32:10.000Z" itemprop="datePublished">2020-11-01</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a>
   </div>
-</article>
-      
-      
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-count">777</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> Reading time≈</span>
+            <span class="post-count">3 min</span>
+        </span>
+    </span>
+</div>
+ 
     </div>
-  </div>
-  
-  
+      
+    <div class="tocbot"></div>
+
+
+
 
   
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>在做选择时，每次都要选择对自身最为有利的结果，保证自身利益的最大化。贪心算法就是利用这种贪心思想而得出一种算法。</p>
+<p>贪心算法可以简单描述为：大事化小，小事化了。对于一个较大的问题，通过找到与子问题的重叠，把复杂的问题划分为多个小问题。并且对于每个子问题的解进行选择，找出最优值，进行处理，再找出最优值，再处理。也就是说贪心算法是一种在每一步选择中都采取在当前状态下最好或最优的选择，从而希望得到结果是最好或最优的算法。</p>
+<p>一句话：不着眼于长期发展，只关心当下收益。</p>
+<p>贪心算法不是对所有问题都能得到整体最优解，但对范围相当广泛的许多问题他能产生整体最优解或者是整体最优解的近似解。</p>
+<h3 id="解题过程"><a href="#解题过程" class="headerlink" title="解题过程"></a>解题过程</h3><ul>
+<li>建立数学模型</li>
+<li>把问题分解成若干个子问题</li>
+<li>对每个子问题求解，只求局部最优</li>
+<li>把子问题的局部最优解合成原来问题的一个解</li>
+</ul>
+<h3 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h3><p>小明手中有 1，5，10，50，100 五种面额的纸币，每种纸币对应张数分别为 5，2，2，3，5 张。若小明需要支付 456 元，则需要多少张纸币？</p>
+<ol>
+<li><p>建立数学模型</p>
+<p>设小明每次选择纸币面额为 Xi ，需要的纸币张数为 n 张，则</p>
+<p>X1 + X2 + … + Xn = 456.</p>
+</li>
+<li><p>把问题分解成若干个子问题</p>
+<p>小明选择纸币进行支付的过程，可以划分为n个子问题，即每个子问题对应为：<br>在未超过456的前提下，在剩余的纸币中选择一张纸币。</p>
+</li>
+<li><p>对每个子问题求解，只求局部最优</p>
+<p>制定的贪心策略为：在允许的条件下选择面额最大的纸币。</p>
+<ul>
+<li>选取面值为 100 的纸币，则 X1 = 100, V = 456 - 100 = 356；</li>
+<li>继续选取面值为 100 的纸币，则 X2 = 100, V = 356 - 100 = 256；</li>
+<li>继续选取面值为 100 的纸币，则 X3 = 100, V = 256 - 100 = 156；</li>
+<li>继续选取面值为 100 的纸币，则 X4 = 100, V = 156 - 100 = 56；</li>
+<li>选取面值为 50 的纸币，则 X5 = 50, V = 56 - 50 = 6；</li>
+<li>选取面值为 5 的纸币，则 X6 = 5, V = 6 - 5 = 1；</li>
+<li>选取面值为 1 的纸币，则 X7 = 1, V = 1 - 1 = 0；求解结束</li>
+</ul>
+</li>
+<li><p>把子问题的局部最优解合成原来问题的一个解</p>
+<p>小明需要支付的纸币张数为 7 张，其中面值 100 元的 4 张，50 元 1 张，5 元 1 张，1 元 1 张。</p>
+</li>
+</ol>
+<h4 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N = <span class="number">5</span>; </span><br><span class="line"><span class="keyword">int</span> Count[N] = &#123;<span class="number">5</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">5</span>&#125;;<span class="comment">//每一张纸币的数量 </span></span><br><span class="line"><span class="keyword">int</span> Value[N] = &#123;<span class="number">1</span>,<span class="number">5</span>,<span class="number">10</span>,<span class="number">50</span>,<span class="number">100</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">solve</span><span class="params">(<span class="keyword">int</span> money)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = N-<span class="number">1</span>;i&gt;=<span class="number">0</span>;i--) &#123;</span><br><span class="line">        <span class="keyword">int</span> c = min(money/Value[i],Count[i]);<span class="comment">//每一个所需要的张数 </span></span><br><span class="line">        money = money-c*Value[i];</span><br><span class="line">        num += c;<span class="comment">//总张数 </span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(money&gt;<span class="number">0</span>) num=-<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> num;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>Copyright： </strong>
+          
+          Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer" >
+        <i class="ri-share-forward-line" "></i>
+        分享
+      </span>
+      <!-- <div class="share-wrap">-->
+        <i class="arrow"></i> 
+        <div class="share-icons">
+
+          
+
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+
+          
+
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      <!-- </div> -->
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cuiyuqin.github.io/2020/11/01/%E7%AE%97%E6%B3%95%E6%80%9D%E6%83%B3-%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95%E6%80%9D%E6%83%B3/" rel="tag">算法思想</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+      <a href="/2020/11/17/%E5%86%85%E5%AE%B9%E8%84%91%E5%9B%BE/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            内容脑图(Mindmap)
+          
+        </div>
+      </a>
+    
+    
+  </nav>
+
+  
+     
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer" style="color:#777777;">
@@ -246,6 +398,23 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: 'main',
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto'
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">

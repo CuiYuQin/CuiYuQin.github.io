@@ -23,168 +23,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Ayer中文说明</title>
-    <url>/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><blockquote>
-<p><a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a> 是一个干净且优雅的 Hexo 主题，自带响应式，加载速度很快，该有的功能都有，可配置项很多，非常适合作为你的博客主题，主题内还附送了6张精美的高清壁纸。欢迎使用和 Star 支持，如果你在使用过程中有任何疑问或者建议，欢迎联系我！如果你的博客采用了本主题，欢迎在下面评论区留下地址~</p>
-</blockquote>
-<p><a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a> 在马来语中是“水”的意思，在西班牙语中是“昨天”的意思。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/ayer.jpg" alt="hexo-theme-ayer"></p>
-<p><a href="https://github.com/Shen-Yu/hexo-theme-ayer">GitHub地址</a></p>
-<p><a href="https://gitee.com/shen-yu/hexo-theme-ayer">国内镜像</a></p>
-<p><a href="https://shen-yu.gitee.io/">效果预览</a></p>
-<p><a href="https://shen-yu.gitee.io/2019/ayer/">中文说明</a></p>
-<a id="more"></a>
-
-<h1 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h1><ol>
-<li>干净且优雅，文章内容美观易读</li>
-<li>首页封面全屏平铺，扁平化设计，简洁又不失高大上</li>
-<li>响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现</li>
-<li>首页封面和文案可以任意更换，主题内附送 6 张精美高清壁纸</li>
-<li>时间轴式的归档页</li>
-<li>支持 <code>黑夜阅读</code> 模式</li>
-<li>侧边栏可以点击显示或隐藏</li>
-<li>支持文章置顶和文章打赏</li>
-<li>支持文章字数和阅读时长统计</li>
-<li>支持网易云音乐播放</li>
-<li>支持 <code>MathJax</code> 和 <code>Katex</code> 数学公式</li>
-<li><code>TOC</code> 目录在文章页悬浮，跳转更方便</li>
-<li>可设置阅读文章时做密码验证<a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md">hexo-blog-encrypt</a></li>
-<li><a href="https://valine.js.org/">Valine</a>和<a href="https://gitalk.github.io/">Gitalk</a>评论模块（推荐配合<code>leancloud</code>使用 <code>Valine</code>）</li>
-<li>集成了<a href="http://busuanzi.ibruce.info/">不蒜子</a>、百度统计、Google Analytics、CNZZ等统计功能</li>
-<li>支持 Github Ribbons</li>
-</ol>
-<p>如果想体验手机端浏览效果，可以扫一下二维码：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/mobile_ayer.jpg" alt="手机端效果"></p>
-<h1 id="多语言支持"><a href="#多语言支持" class="headerlink" title="多语言支持"></a>多语言支持</h1><p><code>zh-CN（简体中文）</code> ; <code>en（English）</code> ; <code>zh-TW（繁體中文）</code> ; <code>ja（Japanese）</code> ; <code>es（Spanish）</code> ; <code>de（German）</code> ; <code>fr（French）</code> ; <code>ru（Russian）</code> ; <code>ko（Korean）</code> ; <code>vi（Vietnamese）</code> ; <code>nl（Dutch）</code> ; <code>no（Norwegian）</code> ; <code>pt（Portuguese）</code> </p>
-<p>Hexo 默认语言为英语（en），请参照上表修改 Hexo 博客目录下的 <code>_config.yml</code> 文件中 <code>language:</code> 的值（第 11 行）。</p>
-<h1 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h1><p>根据 <a href="https://github.com/Shen-Yu/hexo-theme-ayer/blob/master/LICENSE">Ayer 主题的开源许可证</a>，只要你进 <a href="https://github.com/Shen-Yu/hexo-theme-ayer">项目主页</a> 给这个主题右上角点一个 Star 并且不抹掉页脚的主题仓库链接就可以任意修改使用该主题了。</p>
-<p>此主题完全开源且免费，目前由我一个人维护，如果你觉得主题不错，可以选择适当打赏我，不在于金额多少，而是能让我更有动力去维护这个主题。打赏请备注说明，谢谢~</p>
-<div style="width:100%;text-align:center;font-weight:bold">
-<span style="width:30%;display:inline-block">
-微信
-<img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/wechatpay.png" alt="wechat" style="width:100%"></span>
-<span style="width:30%;;display:inline-block">
-支付宝
-<img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/alipay.jpg" alt="alipay" style="width:100%"></span>
-</div>
-
-<p>如果你不懂技术，希望我帮忙从零搭建一个类似的网站或者有其他技术类需求，我也愿意提供有偿服务，我的QQ：448766534</p>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><strong>方法一：</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 国内用户如果速度较慢，可以把github地址替换为：https://gitee.com/mirrors/ayer.git</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer</span><br></pre></td></tr></table></figure>
-
-<p><strong>方法二（hexo &gt;= 5.0）：</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-theme-ayer -S</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>如果是新安装本主题，安装完成后会在根目录生成一个<code>_config.ayer.yml</code>文件，直接编辑<code>_config.ayer.yml</code>文件进行配置即可。</li>
-<li>如果是主题升级，可以使用方法一，也可以将原来的配置文件移动到根目录，并重命名为<code>_config.ayer.yml</code>。</li>
-</ul>
-<h1 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h1><p>将博客根目录下的 <code>_config.yml</code> 里的 <code>theme</code> 值修改成 <code>ayer</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">ayer</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>更新主题可能会覆盖你之前改动过的 config 文件，建议先把 <code>config.yml</code> 里的配置备份一下，然后删掉 ayer 目录后重新 <code>git clone</code> 下载主题，再把配置复制进去。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/ayer</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
-
-<p>如果你是用方法二的 npm 安装本主题，那么在根目录执行以下命令就可更新。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm update hexo-theme-ayer -S</span><br></pre></td></tr></table></figure>
-
-<h1 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h1><p>以下是 ayer 主题目录下的 <code>_config.yml</code> 文件配置，如果你是用方法二的 npm 安装，那么在 Hexo 博客目录下的 <code>_config.ayer.yml</code> 配置就行，注意别把 Hexo 的配置文件和主题的配置文件搞混。另外，请先确保你已经读过 <a href="https://hexo.io/zh-cn/docs/">Hexo 文档</a>。如果你在配置过程中有问题，请先擅用 <a href="https://cn.bing.com/">搜索引擎</a>。如果你搜不到解决方法，你可以参考：<a href="https://gitee.com/shen-yu/shen-yu/tree/dev/">我的博客源码</a>，按照我的一模一样配肯定是不会有问题的。如果对部分字体或颜色等有定制需求，请自行在 css 文件进行修改，主题本身已经很符合审美，自定义配置项也很多，不建议改得花里胡哨，过大的字体和库都会影响博客加载速度。如果还有问题或者建议，那么请在评论区给我留言~</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 侧边栏菜单</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">主页:</span> <span class="string">/</span></span><br><span class="line">  <span class="string">归档:</span> <span class="string">/archives</span></span><br><span class="line">  <span class="string">分类:</span> <span class="string">/categories</span></span><br><span class="line">  <span class="string">标签:</span> <span class="string">/tags</span></span><br><span class="line">  <span class="string">摄影:</span> <span class="string">http://shenyu-vip.lofter.com</span></span><br><span class="line">  <span class="string">旅行:</span> <span class="string">/tags/旅行/</span></span><br><span class="line">  <span class="string">关于我:</span> <span class="string">/2019/about</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 站点次标题和打字动效</span></span><br><span class="line"><span class="comment"># https://github.com/mattboldt/typed.js</span></span><br><span class="line"><span class="attr">subtitle:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># 是否开启动效</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">面朝大海，春暖花开</span>  <span class="comment"># 显示的文字</span></span><br><span class="line">  <span class="attr">text2:</span> <span class="string">愿你一生努力，一生被爱</span>   <span class="comment"># 滚动播放，如果不需要可以留空</span></span><br><span class="line">  <span class="attr">text3:</span> <span class="string">想要的都拥有，得不到的都释怀</span>  <span class="comment"># 最多支持三段文字</span></span><br><span class="line">  <span class="attr">startDelay:</span> <span class="number">0</span>   <span class="comment"># 延迟时间</span></span><br><span class="line">  <span class="attr">typeSpeed:</span> <span class="number">200</span>  <span class="comment"># 打字速度</span></span><br><span class="line">  <span class="attr">loop:</span> <span class="literal">true</span>  <span class="comment"># 是否循环</span></span><br><span class="line">  <span class="attr">backSpeed:</span> <span class="number">100</span>  <span class="comment"># 回退速度</span></span><br><span class="line">  <span class="attr">showCursor:</span> <span class="literal">true</span>  <span class="comment"># 是否显示光标</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 网站图标和侧边栏logo</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/favicon.ico</span></span><br><span class="line"><span class="attr">logo:</span> <span class="string">/images/ayer-side.svg</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 封面配置</span></span><br><span class="line"><span class="comment"># enable-是否启用封面；path-封面背景图；logo-封面logo</span></span><br><span class="line"><span class="attr">cover:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">/images/cover1.jpg</span>  <span class="comment"># /source/images目录下附送多张精美壁纸，可任意更换</span></span><br><span class="line">  <span class="attr">logo:</span> <span class="string">/images/ayer.svg</span>  <span class="comment"># 如果不要直接设置成false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 页面顶部进度条  </span></span><br><span class="line"><span class="attr">progressBar:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 告示板模块</span></span><br><span class="line"><span class="attr">broadcast:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># true开启，false关闭</span></span><br><span class="line">  <span class="attr">type:</span> <span class="number">2</span> <span class="comment"># 1：自定义输入，2：一言api(https://hitokoto.cn/)</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">一个安静优雅的hexo主题，快速且响应式。</span> <span class="comment"># type为1时有效</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 文章配置</span></span><br><span class="line"><span class="comment"># 文章太长，截断按钮文字(在需要截断的行增加此标记：&lt;!--more--&gt;)</span></span><br><span class="line"><span class="attr">excerpt_link:</span> <span class="string">阅读更多...</span></span><br><span class="line"><span class="comment"># 如果你嫌每篇文章手动加more标记比较麻烦，又不想在首页全文显示，可以把excerpt_all设置成true，这样首页只会显示文章归档</span></span><br><span class="line"><span class="attr">excerpt_all:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否开启代码复制按钮</span></span><br><span class="line"><span class="attr">copy_btn:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 是否开启文章分享按钮</span></span><br><span class="line"><span class="attr">share_enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 国内的社交平台(If you are not in China, maybe you prefer to set:false)</span></span><br><span class="line"><span class="attr">share_china:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 文章分享文字</span></span><br><span class="line"><span class="attr">share_text:</span> <span class="string">分享</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 分页文字</span></span><br><span class="line"><span class="attr">nav_text:</span></span><br><span class="line">  <span class="attr">page_prev:</span> <span class="string">上一页</span></span><br><span class="line">  <span class="attr">page_next:</span> <span class="string">下一页</span></span><br><span class="line">  <span class="attr">post_prev:</span> <span class="string">上一篇</span></span><br><span class="line">  <span class="attr">post_next:</span> <span class="string">下一篇</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 文章页是否显示目录</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 文章中的图片是否支持点击放大</span></span><br><span class="line"><span class="attr">image_viewer:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># https://github.com/willin/hexo-wordcount</span></span><br><span class="line"><span class="comment"># 是否开启字数统计(关闭请设置enable为false)</span></span><br><span class="line"><span class="comment"># 也可以单独在md文件里Front-matter设置`no_word_count: true`属性，来自定义关闭字数统计</span></span><br><span class="line"><span class="attr">word_count:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 只在文章详情显示(不在首页显示)</span></span><br><span class="line">  <span class="attr">only_article_visit:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 打赏</span></span><br><span class="line"><span class="comment"># 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-默认开启所有文章均有打赏，如果有些文章你不需要，请在文章对应的md文件里设置no_reward:true</span></span><br><span class="line"><span class="attr">reward_type:</span> <span class="number">2</span></span><br><span class="line"><span class="comment"># 打赏wording</span></span><br><span class="line"><span class="attr">reward_wording:</span> <span class="string">&#x27;请我喝杯咖啡吧~&#x27;</span></span><br><span class="line"><span class="comment"># 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg</span></span><br><span class="line"><span class="attr">alipay:</span> <span class="string">/images/alipay.jpg</span></span><br><span class="line"><span class="comment"># 微信二维码图片地址</span></span><br><span class="line"><span class="attr">weixin:</span> <span class="string">/images/wechat.jpg</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 版权声明</span></span><br><span class="line"><span class="comment"># 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明</span></span><br><span class="line"><span class="attr">copyright_type:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否启用搜索</span></span><br><span class="line"><span class="attr">search:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># RSS订阅(先安装hexo-generator-feed插件，再去博客根目录config进行配置)</span></span><br><span class="line"><span class="comment"># 不想显示可以直接留空</span></span><br><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否启用黑夜模式开关</span></span><br><span class="line"><span class="attr">darkmode:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 动态背景效果: 0-关闭，1-动态线条(跟随鼠标)</span></span><br><span class="line"><span class="attr">canvas_bg:</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 自定义鼠标样式，直接替换/images/mouse.cur文件</span></span><br><span class="line"><span class="attr">mouse:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">/images/mouse.cur</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花</span></span><br><span class="line"><span class="attr">click_effect:</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度</span></span><br><span class="line"><span class="attr">layout:</span></span><br><span class="line">  <span class="attr">article_width:</span> <span class="string">80rem</span></span><br><span class="line">  <span class="attr">sidebar_width:</span> <span class="string">8rem</span></span><br><span class="line">  </span><br><span class="line"><span class="comment"># GitHub Ribbons-封面右上角的forkme，换样式直接在source/images目录下替换forkme图片</span></span><br><span class="line"><span class="attr">github:</span> </span><br><span class="line">  <span class="comment"># (关闭请设置为false)</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://github.com/Shen-Yu/hexo-theme-ayer</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 网易云音乐插件</span></span><br><span class="line"><span class="attr">music:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 播放器尺寸类型(1：小尺寸、2：大尺寸)</span></span><br><span class="line">  <span class="attr">type:</span> <span class="number">1</span></span><br><span class="line">  <span class="attr">id:</span> <span class="number">22707008</span>  <span class="comment"># 网易云分享的音乐ID(更换音乐请更改此配置项)</span></span><br><span class="line">  <span class="attr">autoPlay:</span> <span class="literal">true</span>  <span class="comment"># 是否开启自动播放</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 访问量统计(不蒜子)</span></span><br><span class="line"><span class="attr">busuanzi:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 友盟cnzz统计(url填js代码src链接)</span></span><br><span class="line"><span class="attr">cnzz:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">url:</span> <span class="comment">#</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Google Analytics</span></span><br><span class="line"><span class="attr">google_analytics:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="comment"># 百度统计</span></span><br><span class="line"><span class="attr">baidu_analytics:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Mathjax数学公式</span></span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Katex数学公式(allpost设置为false时只有头部设置math:true的文章才开启)</span></span><br><span class="line"><span class="comment"># 需要更换hexo渲染器，npm un hexo-renderer-marked -S &amp;&amp; npm i hexo-renderer-markdown-it-katex -S</span></span><br><span class="line"><span class="attr">katex:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># true</span></span><br><span class="line">  <span class="attr">allpost:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">copy_tex:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)</span></span><br><span class="line"><span class="attr">since:</span> <span class="number">2019</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否显示页脚信息(建议保留，有助于本主题的推广)</span></span><br><span class="line"><span class="attr">pageFooter:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># ICP备案信息尾部显示</span></span><br><span class="line"><span class="attr">icp:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">&#x27;http://www.beian.miit.gov.cn/&#x27;</span> <span class="comment"># 备案链接</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">&#x27;浙ICP备88888888&#x27;</span> <span class="comment"># 备案信息</span></span><br><span class="line"><span class="comment"># 公安备案信息尾部显示</span></span><br><span class="line"><span class="attr">gongan:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">/images/beian.png</span> <span class="comment">#公安备案图片</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">&quot;http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=01234567890123&quot;</span> <span class="comment">#公安备案链接</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">&quot;浙公网安备01234567890123号&quot;</span> <span class="comment">#公安备案信息</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 友情链接</span></span><br><span class="line"><span class="attr">friends_link:</span></span><br><span class="line">  <span class="string">Ayer主题:</span> <span class="comment">#网站名称</span></span><br><span class="line">    <span class="comment">#网站地址</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://github.com/Shen-Yu/hexo-theme-ayer</span></span><br><span class="line">    <span class="comment">#网站图片(可忽略不写)</span></span><br><span class="line">    <span class="attr">img:</span> <span class="string">/images/ayer.png</span></span><br><span class="line">  <span class="attr">GitHub:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://github.com/Shen-Yu</span></span><br><span class="line">    <span class="attr">img:</span> <span class="string">https://i.loli.net/2020/09/07/indb4PRYDA98EkN.png</span></span><br><span class="line">  <span class="string">码云:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://gitee.com/shen-yu</span></span><br><span class="line">    <span class="attr">img:</span> <span class="string">https://i.loli.net/2020/09/07/K3AqO7h6krQFlRX.png</span></span><br><span class="line">  <span class="string">Hexo官网:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://hexo.io</span></span><br><span class="line">    <span class="attr">img:</span> <span class="string">https://i.loli.net/2020/09/07/UYGzjo7h68CRWny.png</span></span><br><span class="line">  <span class="string">Hexo图表插件:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://github.com/Shen-Yu/hexo-tag-chart</span></span><br><span class="line">    <span class="attr">img:</span> <span class="string">https://i.loli.net/2020/09/07/GIXBYE5SoylhR1r.png</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 评论：1、Valine(推荐)；2、Gitalk</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 1、Valine[一款快速、简洁且高效的无后端评论系统](https://github.com/xCss/Valine)</span></span><br><span class="line"><span class="comment"># 启用Valine必须先创建leancloud应用， 注册账号后获取 id|key 填入即可</span></span><br><span class="line"><span class="attr">leancloud:</span>  </span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="comment">#</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="comment">#</span></span><br><span class="line"><span class="comment"># Valine配置(如果有些文章你想关闭评论，请在文章对应的md文件里设置no_valine:true)</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 是否启用</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">monsterid</span> <span class="comment"># 头像样式(https://valine.js.org/avatar.html)</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">给我的文章加点评论吧~</span> <span class="comment"># placeholder</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 2、Gitalk(https://github.com/gitalk/gitalk)</span></span><br><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># true</span></span><br><span class="line">  <span class="attr">clientID:</span> <span class="comment"># GitHub Application Client ID</span></span><br><span class="line">  <span class="attr">clientSecret:</span> <span class="comment"># Client Secret</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="comment"># Repository name</span></span><br><span class="line">  <span class="attr">owner:</span> <span class="comment"># GitHub ID</span></span><br><span class="line">  <span class="attr">admin:</span> <span class="comment"># GitHub ID</span></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="插件-必需"><a href="#插件-必需" class="headerlink" title="插件(必需)"></a>插件(必需)</h2><ul>
-<li><p><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a> 用于搜索</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-searchdb</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
-<p>然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer目录下的）:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a> 用于生成RSS订阅</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-feed</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
-
-<p>  然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer目录下的）:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">    <span class="attr">hub:</span></span><br><span class="line">    <span class="attr">content:</span></span><br><span class="line">    <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">    <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">    <span class="attr">order_by:</span> <span class="string">-date</span>	</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h2 id="插件-可选"><a href="#插件-可选" class="headerlink" title="插件(可选)"></a>插件(可选)</h2><ul>
-<li><p><a href="https://github.com/netcan/hexo-generator-index-pin-top">hexo-generator-index-pin-top</a> 用于文章置顶</p>
-</li>
-<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md">hexo-blog-encrypt</a> 用于文章加密</p>
-</li>
-<li><p><a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">hexo-tag-aplayer</a> 用于播放音乐</p>
-</li>
-<li><p><a href="https://github.com/MoePlayer/hexo-tag-dplayer">hexo-tag-dplayer</a> 用于播放视频</p>
-</li>
-<li><p><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">hexo-helper-live2d</a> 二次元看板娘</p>
-</li>
-</ul>
-<p>更多插件请见 <a href="https://hexo.io/plugins/">hexo插件市场</a></p>
-<h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
-<p>然后将以下复制到 /source/categories/index.md 文件</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: categories</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
-<p>配置同分类一样</p>
-<h2 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page friends</span><br></pre></td></tr></table></figure>
-<p>然后将以下复制到 /source/friends/index.md 文件</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: friends</span><br><span class="line">type: friends</span><br><span class="line">layout: &quot;friends&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p>然后在 ayer 主题目录下的 <code>_config.yml</code> 中自定义 <code>friends_link</code> 配置项即可</p>
-<h2 id="相册"><a href="#相册" class="headerlink" title="相册"></a>相册</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page photos</span><br></pre></td></tr></table></figure>
-<p>然后将以下复制到 /source/photos/index.md 文件，<code>img_url</code> 替换成图片路径，<code>caption</code> 替换成图片名称</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Gallery</span><br><span class="line"></span><br><span class="line">albums: [</span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;],</span></span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;]</span></span><br><span class="line"><span class="code">        ]</span></span><br><span class="line"><span class="code">---</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h2><p>用 Tocbot 解析文章标题并生成目录</p>
-<ul>
-<li>将以下配置复制到你 ayer 主题目录下的 <code>_config.yml</code> 里：</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Toc</span></span><br><span class="line">toc: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>当然你可能并不想所有文章都生成悬浮目录，你可以在文章顶部的配置中加一行来进行关闭：</li>
-</ul>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">no<span class="emphasis">_toc: true</span></span><br><span class="line"><span class="emphasis">---</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><h2 id="一-本地图片引用了却无法显示"><a href="#一-本地图片引用了却无法显示" class="headerlink" title="一.本地图片引用了却无法显示"></a>一.本地图片引用了却无法显示</h2><blockquote>
-<p>插入图片的两种方法：</p>
-</blockquote>
-<ol>
-<li>引用图床</li>
-<li>引用本地图片。为了防止路径出错，建议使用图床。</li>
-</ol>
-<h3 id="1-图床"><a href="#1-图床" class="headerlink" title="1.图床"></a>1.图床</h3><p>推荐使用：<a href="https://sm.ms/">SM.MS</a>，<a href="https://www.superbed.cn/">聚合图床</a></p>
-<h3 id="2-本地图片"><a href="#2-本地图片" class="headerlink" title="2.本地图片"></a>2.本地图片</h3><p>参照 <a href="https://hexo.io/zh-cn/docs/asset-folders">Hexo文档</a>，然后用这种方式引用图片：</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% asset<span class="emphasis">_img image.jpg [title] %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>如果还是无法显示，请尝试在文章里用 html 的 img 标签来引用本地图片。</p>
-<h2 id="二-可以启动但是样式变形了"><a href="#二-可以启动但是样式变形了" class="headerlink" title="二.可以启动但是样式变形了"></a>二.可以启动但是样式变形了</h2><p>这很可能是因为你把博客部署到了服务器子目录，导致静态资源加载的路径不对，在此强烈建议你部署到根目录，github和码云都支持根目录部署，只要你把仓库名搞成和用户名一样就行了。</p>
-<h2 id="三-点击侧边栏页面无法显示"><a href="#三-点击侧边栏页面无法显示" class="headerlink" title="三.点击侧边栏页面无法显示"></a>三.点击侧边栏页面无法显示</h2><p>原因：ayer 主题目录下的 <code>config.yml</code> 里 menu 属性的路径不对，这需要你根据页面路径手动配置。</p>
-<p>以我的博客为例：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">主页:</span> <span class="string">/</span></span><br><span class="line">  <span class="string">归档:</span> <span class="string">/archives</span></span><br><span class="line">  <span class="string">分类:</span> <span class="string">/categories</span></span><br><span class="line">  <span class="string">标签:</span> <span class="string">/tags</span></span><br><span class="line">  <span class="string">旅行:</span> <span class="string">/tags/旅行/</span></span><br><span class="line">  <span class="string">摄影:</span> <span class="string">http://shenyu-vip.lofter.com</span></span><br><span class="line">  <span class="string">关于我:</span> <span class="string">/2019/about</span></span><br></pre></td></tr></table></figure>
-
-<p>上面的 <code>归档/archives</code> 是固定的，你不需要修改，<code>标签</code>和<code>分类</code>都需要手动创建目录，<code>旅行</code>实际上就是一个标签页，当你在文章头部设置tags属性后就会自动生成，<code>摄影</code>是一个站外的绝对路径，<code>关于我</code>实际上就是一个正常的文章页。好了，现在一个侧边栏导航就已经配置好了。</p>
-<h2 id="四-为什么修改了配置却没有效果"><a href="#四-为什么修改了配置却没有效果" class="headerlink" title="四.为什么修改了配置却没有效果"></a>四.为什么修改了配置却没有效果</h2><p>建议每次生成站点或部署之前都用 <code>hexo clean</code> 命令清理一下缓存，请使用 Ctrl + F5 清除缓存并刷新页面。</p>
-<h2 id="五-怎么修改大标题和站点信息"><a href="#五-怎么修改大标题和站点信息" class="headerlink" title="五.怎么修改大标题和站点信息"></a>五.怎么修改大标题和站点信息</h2><p>参考 <a href="https://hexo.io/zh-cn/docs/configuration">Hexo 文档</a></p>
-<p>站点配置文件 <code>_config.yml</code> 是 Hexo 站点根目录下的主配置文件（还不知道是哪里的，自己搜索），注意：别和 <code>ayer</code> 主题目录下的 <code>_config.yml</code> 搞混了。</p>
-<p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改 Hexo 博客目录下的 <code>_config.yml</code></p>
-<p>以我的博客为例：<br><img src="https://pic.downk.cc/item/5e75c69c9d7d586a54cf119d.jpg"></p>
-<h2 id="六-怎么添加百度或谷歌统计"><a href="#六-怎么添加百度或谷歌统计" class="headerlink" title="六.怎么添加百度或谷歌统计"></a>六.怎么添加百度或谷歌统计</h2><h3 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h3><p>参考这里：<a href="https://tongji.baidu.com/web/help/article?id=174&type=0&castk=LTE=">百度统计代码介绍</a></p>
-<p>在 ayer 的 config 配置里的 <code>baidu_analytics</code> 填上百度统计代码中的 <code>hm.js?</code> 后面那一串东西</p>
-<h3 id="谷歌统计"><a href="#谷歌统计" class="headerlink" title="谷歌统计"></a>谷歌统计</h3><p>参考这里：<a href="https://support.google.com/analytics/answer/1008015?hl=en">Get started with Google Analytics</a></p>
-<p>在 ayer 的 config 配置里的 <code>google_analytics</code> 填上谷歌统计代码的跟踪 ID，即 UA 值(包含 UA)</p>
-<h2 id="七-怎么查看文章的访问量"><a href="#七-怎么查看文章的访问量" class="headerlink" title="七.怎么查看文章的访问量"></a>七.怎么查看文章的访问量</h2><p>在 ayer 的 config 配置里有 <code>busuanzi</code> 选项，默认设置为 <code>enable:true</code>，就开启了站点访问量的统计，站点尾部左下角的 <code>PV</code> 代表了当前页的访问次数，<code>UV</code> 代表了当前站点的访问人数。注意：不蒜子统计是根据当前域名来统计的，你在本地启动的时候由于是 localhost，所以数字会很大，部署到线上之后就会根据域名重新统计。</p>
-<h2 id="八-网易云音乐无法播放"><a href="#八-网易云音乐无法播放" class="headerlink" title="八.网易云音乐无法播放"></a>八.网易云音乐无法播放</h2><p>这是由于网易云音乐对部分歌曲做了版权限制，你可以多换几首试试，配置文件里的默认歌曲 <code>潮鳴り</code> 是可以播放的。如果你动手能力强，也可以试试音乐播放插件 <a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">hexo-tag-aplayer</a>，配合<code>MetingJS</code>可以支持对于 QQ音乐、网易云、虾米、酷狗、百度等平台的音乐播放。</p>
-<h2 id="九-分享链接无法打开"><a href="#九-分享链接无法打开" class="headerlink" title="九.分享链接无法打开"></a>九.分享链接无法打开</h2><p>你需要在 Hexo 博客目录下的 <code>_config.yml</code> 文件中把 url 配置成部署后的域名。</p>
-<h2 id="十-怎么让搜索引擎收录站点"><a href="#十-怎么让搜索引擎收录站点" class="headerlink" title="十.怎么让搜索引擎收录站点"></a>十.怎么让搜索引擎收录站点</h2><p>参考：<a href="/2020/hexo-seo">Hexo站点SEO优化技巧</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>test</title>
     <url>/2020/11/28/test/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="/2020/11/28/test/1.jpg"></p>
@@ -206,119 +44,60 @@
       </tags>
   </entry>
   <entry>
-    <title>免备案 CDN 推荐</title>
-    <url>/2020/08/26/nodecache/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近刚好需要用到免备案 CDN，所以查了下资料，使用一段时间后感觉 Nodecache 很不错 。<br>b<br>Nodecache 主要提供CDN、DNS、SSL 证书等业务，亚太节点有我们喜欢的香港线路，速度很不错。</p>
-<h2 id="一、Nodecache-注册"><a href="#一、Nodecache-注册" class="headerlink" title="一、Nodecache 注册"></a>一、Nodecache 注册</h2><p>官网地址：<a href="https://console-api.nodecache.com/f?aff=EKQw5r">https://www.nodecache.com</a></p>
-<p>注册流程非常简单，官网支持中文，直接打开注册就行，新用户注册赠送 500G 流量。</p>
-<p>也可以通过 <a href="https://console-api.nodecache.com/f?aff=EKQw5r">活动链接</a> 注册直接送 1T 流量 。</p>
-<a id="more"></a>
-
-<h2 id="二、配置CDN加速"><a href="#二、配置CDN加速" class="headerlink" title="二、配置CDN加速"></a>二、配置CDN加速</h2><p>登录 Nodecache 控制台，选择 CDN服务，进入配置管理页面</p>
-<p>Nodecache配置CDN和其它商家差不多，从Nodecache后台可以看出CDN功能还是挺丰富的，支持HTTP/2、Brotli压缩、自动适应webp这些新特性，感觉后台界面和又拍云非常相似。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/QIX3LKfa9VMirqF.webp.jpg" alt="snipaste_20190702_170358.png"></p>
-<h2 id="三、亚太节点"><a href="#三、亚太节点" class="headerlink" title="三、亚太节点"></a>三、亚太节点</h2><p>部署CDN的时候可选择面向全球、亚太、欧美等地区，我选择的是亚太节点，从分配的节点来看大陆地区全部走香港数据中心，速度和延迟都很不错。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/5kbrEfmLTKGq1oi.webp.jpg" alt="snipaste_20190702_170929.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>对于不想备案，并且希望国内访问速度比较理想的用户可以考虑下Nodecache，毕竟有香港节点加持，价格也不算贵。<br><img src="https://cdn.jsdelivr.net/gh/asmrfun/cdn2/picgo/1rEqHAtBZGYITXQ.webp.jpg" alt="20200827102625.png"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mysql踩坑记录</title>
-    <url>/2020/08/26/mysql/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>事情起因是这样的，我最近想着写个用python爬取某网站音频并写入数据库的脚本，由于之前操作数据库都是在线上直接改，没有本地连过，所以本地的pymysql想连我网站的数据库，第一步是要把user表的localhost改成%，以此开放远程连接，问题就来了，我在phpmyadmin改完之后，居然所有账号都登不上了，也不知道哪出了问题，可能是我敲错了吧。然后我又找了一篇新建root用户的博文，跟着敲，敲完之后确实能登上去了。但是！这时候只能看到information_schema这一个数据库了，这时候网站也挂了，我以为数据库被误删了，就找各种方法想还原数据库。折腾半天，我终于解决了，我觉得有必要记录一下踩坑过程。</p>
-<a id="more"></a>
-
-<p><strong>只能看到information_schema的原因：用户没权限，而不是数据库被误删了。</strong></p>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>按下面的解决步骤执行到第4步，如果执行 <code>show databases;</code>命令之后，数据库都显示出来了，那么就是root用户没给够权限，按下面的步骤走完，重启mysql就行了。</p>
+    <title>算法思想-贪心算法</title>
+    <url>/2020/11/01/%E7%AE%97%E6%B3%95%E6%80%9D%E6%83%B3-%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>在做选择时，每次都要选择对自身最为有利的结果，保证自身利益的最大化。贪心算法就是利用这种贪心思想而得出一种算法。</p>
+<p>贪心算法可以简单描述为：大事化小，小事化了。对于一个较大的问题，通过找到与子问题的重叠，把复杂的问题划分为多个小问题。并且对于每个子问题的解进行选择，找出最优值，进行处理，再找出最优值，再处理。也就是说贪心算法是一种在每一步选择中都采取在当前状态下最好或最优的选择，从而希望得到结果是最好或最优的算法。</p>
+<p>一句话：不着眼于长期发展，只关心当下收益。</p>
+<p>贪心算法不是对所有问题都能得到整体最优解，但对范围相当广泛的许多问题他能产生整体最优解或者是整体最优解的近似解。</p>
+<h3 id="解题过程"><a href="#解题过程" class="headerlink" title="解题过程"></a>解题过程</h3><ul>
+<li>建立数学模型</li>
+<li>把问题分解成若干个子问题</li>
+<li>对每个子问题求解，只求局部最优</li>
+<li>把子问题的局部最优解合成原来问题的一个解</li>
+</ul>
+<h3 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h3><p>小明手中有 1，5，10，50，100 五种面额的纸币，每种纸币对应张数分别为 5，2，2，3，5 张。若小明需要支付 456 元，则需要多少张纸币？</p>
 <ol>
-<li>找到 <code>/etc/my.conf</code> 文件，在 <code>[mysqld]</code> 一行下面加上 <code>skip-grant-tables</code>，跳过权限验证。</li>
-<li>然后运行 <code>service mysqld restart</code> 重启一下<code>mysql</code>，注意是<code>mysqld</code>不是<code>mysql</code>。</li>
-<li>运行 <code>mysql -u root -p</code> 登录root用户。</li>
-<li>登录成功后可以用 <code>show databases;</code>命令 看看所有的数据库是否都显示出来了。注意记得加上<code>;</code> </li>
-<li>执行：<code>use mysql;</code> 这时候显示 <code>Database changed</code></li>
-<li>执行：<code>flush privileges;</code></li>
-<li>执行：<code>grant all privileges on *.* to root@&#39;localhost&#39; identified by &quot;a123456&quot; with grant option; </code>，这一步是很重要的一步，就是为了把所有权限授予给root用户</li>
-<li>去掉第一步 <code>/etc/my.conf</code> 文件里的<code>skip-grant-tables</code></li>
-<li>执行：<code>service mysqld restart</code>，重启mysql</li>
+<li><p>建立数学模型</p>
+<p>设小明每次选择纸币面额为 Xi ，需要的纸币张数为 n 张，则</p>
+<p>X1 + X2 + … + Xn = 456.</p>
+</li>
+<li><p>把问题分解成若干个子问题</p>
+<p>小明选择纸币进行支付的过程，可以划分为n个子问题，即每个子问题对应为：<br>在未超过456的前提下，在剩余的纸币中选择一张纸币。</p>
+</li>
+<li><p>对每个子问题求解，只求局部最优</p>
+<p>制定的贪心策略为：在允许的条件下选择面额最大的纸币。</p>
+<ul>
+<li>选取面值为 100 的纸币，则 X1 = 100, V = 456 - 100 = 356；</li>
+<li>继续选取面值为 100 的纸币，则 X2 = 100, V = 356 - 100 = 256；</li>
+<li>继续选取面值为 100 的纸币，则 X3 = 100, V = 256 - 100 = 156；</li>
+<li>继续选取面值为 100 的纸币，则 X4 = 100, V = 156 - 100 = 56；</li>
+<li>选取面值为 50 的纸币，则 X5 = 50, V = 56 - 50 = 6；</li>
+<li>选取面值为 5 的纸币，则 X6 = 5, V = 6 - 5 = 1；</li>
+<li>选取面值为 1 的纸币，则 X7 = 1, V = 1 - 1 = 0；求解结束</li>
+</ul>
+</li>
+<li><p>把子问题的局部最优解合成原来问题的一个解</p>
+<p>小明需要支付的纸币张数为 7 张，其中面值 100 元的 4 张，50 元 1 张，5 元 1 张，1 元 1 张。</p>
+</li>
 </ol>
-<p>最后查看root用户权限</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> mysql.user <span class="keyword">where</span> <span class="keyword">user</span>=<span class="string">&#x27;root&#x27;</span>\G;</span><br></pre></td></tr></table></figure>
-<p>可以看到都显示是Y，这就成功了。</p>
-<h2 id="localhost受限制"><a href="#localhost受限制" class="headerlink" title="localhost受限制"></a>localhost受限制</h2><p>如果以上用 <code>mysql -u root -p</code> 无法登录，先保证密码是对的，然后尝试用127.0.0.1登录，执行 <code>mysql -u root -p 数据库 -h 127.0.0.1</code> ，如果可以登录，那么就是localhost受限制。执行以上第7步就行了。</p>
-<p><strong>下面解释上面第7步赋予权限命令的含义</strong></p>
-<p>all privileges：表示将所有权限授予给用户。也可指定具体的权限，如：SELECT、CREATE、DROP等。</p>
-<p>on：表示这些权限对哪些数据库和表生效，格式：数据库名.表名，这里写“*”表示所有数据库，所有表。如果我要指定将权限应用到test库的user表中，可以这么写：test.user</p>
-<p>to：将权限授予哪个用户。格式：”用户名”@”登录IP或域名”。%表示没有限制，在任何主机都可以登录。比如：”root”@”192.168.0.%”，表示root这个用户只能在192.168.0IP段登录</p>
-<p>identified by：指定用户的登录密码</p>
-<p>with grant option：表示允许用户将自己的权限授权给其它用户</p>
-<p>root用户可以登录，其他用户不行</p>
-<p>把其他user也按照上面同样的命令开放权限</p>
-<h2 id="拓展知识"><a href="#拓展知识" class="headerlink" title="拓展知识"></a>拓展知识</h2><p>mysql 是个命令行程序；mysqld 是服务。linux 系统里一般的服务都是以 d 结尾的，比如 httpd，vsftpd 等等。d 的全拼应该是 daemon，也就是守护程序的意思，常驻于后台。</p>
-<p>千万要定期备份数据库！显示不出数据库别慌张，很大概率是用户权限的问题，如果真的不小心把数据库删了，可以通过 <code>mysqlbinlog</code> 命令将二进制日志文件恢复到数据库。</p>
-<p>另外想说，网上很多博文真的是误人子弟，博客园csdn一大堆复制粘贴，最后连命令都没粘贴对，对于不懂数据库linux操作的，还是要学习一下基本知识。</p>
+<h4 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N = <span class="number">5</span>; </span><br><span class="line"><span class="keyword">int</span> Count[N] = &#123;<span class="number">5</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">5</span>&#125;;<span class="comment">//每一张纸币的数量 </span></span><br><span class="line"><span class="keyword">int</span> Value[N] = &#123;<span class="number">1</span>,<span class="number">5</span>,<span class="number">10</span>,<span class="number">50</span>,<span class="number">100</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">solve</span><span class="params">(<span class="keyword">int</span> money)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = N-<span class="number">1</span>;i&gt;=<span class="number">0</span>;i--) &#123;</span><br><span class="line">        <span class="keyword">int</span> c = min(money/Value[i],Count[i]);<span class="comment">//每一个所需要的张数 </span></span><br><span class="line">        money = money-c*Value[i];</span><br><span class="line">        num += c;<span class="comment">//总张数 </span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(money&gt;<span class="number">0</span>) num=-<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> num;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
 ]]></content>
       <categories>
-        <category>技术</category>
+        <category>算法</category>
       </categories>
       <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-seo优化技巧</title>
-    <url>/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>搭建的hexo博客如果不经过优化，在搜索引擎被收录的可能很小，SEO可以提高被搜到的几率</p>
-<p><a name="04ad26dd"></a></p>
-<h3 id="一-生成-sitemap-文件"><a href="#一-生成-sitemap-文件" class="headerlink" title="一. 生成 sitemap 文件"></a>一. 生成 sitemap 文件</h3><p>需要先安装两个 hexo 插件：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save		</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-
-<p>打开配置文件<code>_config.yml</code>添加</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">	<span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">	<span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
-
-<p>再重启 hexo，在本地访问 <a href>localhost:4000/sitemap.xml</a>和 <a href>localhost:4000/baidusitemap.xml</a> 就能正确的展示出两个sitemap 文件了。</p>
-<a id="more"></a>
-
-<p><a name="0951f961"></a></p>
-<h3 id="二-推送到-谷歌-和-百度"><a href="#二-推送到-谷歌-和-百度" class="headerlink" title="二. 推送到 谷歌 和 百度"></a>二. 推送到 谷歌 和 百度</h3><p><a name="c58b62e5"></a></p>
-<h4 id="1-百度-→-添加个人网站"><a href="#1-百度-→-添加个人网站" class="headerlink" title="1. 百度 → 添加个人网站"></a>1. 百度 → <a href="https://ziyuan.baidu.com/site/siteadd?siteurl=">添加个人网站</a></h4><p>添加文件方式不可行，hexo会处理html文件</p>
-<p>所以选择，在 head.ejs 里添加 html 标签</p>
-<p>1.1 <a href="https://ziyuan.baidu.com/linksubmit/index">手动提交baidusitemap.xml</a>(里面也有自动提交的代码)</p>
-<p>1.2 可以用”抓取诊断”，手动-百度抓取</p>
-<p>1.3 Robots → 检测并更新</p>
-<p><a name="53dfa5ae"></a></p>
-<h4 id="2-谷歌-→-添加个人网站"><a href="#2-谷歌-→-添加个人网站" class="headerlink" title="2. 谷歌 → 添加个人网站"></a>2. 谷歌 → <a href="https://search.google.com/search-console/welcome">添加个人网站</a></h4><p>类似百度 ，也是在 head.ejs 里添加 html 标签</p>
-<blockquote>
-<p>验证通过就好，过两天左右 百度和谷歌就能收录你的站点</p>
-</blockquote>
-<blockquote>
-<p>测试方式: (分别在 google 和 baidu 搜索)</p>
-</blockquote>
-<blockquote>
-<p>site: shen-yu.gitee.io</p>
-</blockquote>
-<p><a name="dc54d512"></a></p>
-<h5 id="2-1-手动提交sitemap，甚至是单个网站"><a href="#2-1-手动提交sitemap，甚至是单个网站" class="headerlink" title="2.1 手动提交sitemap，甚至是单个网站"></a>2.1 手动提交sitemap，甚至是单个网站</h5><p><a name="19cedad5"></a></p>
-<h5 id="GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交"><a href="#GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交" class="headerlink" title="GoogleSearchConsole → 站点地图 → 输入sitemap.xml → 提交"></a><a href="https://search.google.com/search-console">GoogleSearchConsole</a> → 站点地图 → 输入sitemap.xml → 提交</h5><p><a name="39dffe8d"></a></p>
-<h5 id="2-2-robots配置"><a href="#2-2-robots配置" class="headerlink" title="2.2 robots配置"></a>2.2 robots配置</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;home&#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;about&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
-
-<p>Allow表示允许被访问的，Disallow是不允许的意思。注意后面两个Sitemap就是网站地图了。而网站地图前面说了是给爬虫用的。这里配置在robots中。</p>
-<p><a name="c35bfb76"></a></p>
-<h5 id="2-3-测试"><a href="#2-3-测试" class="headerlink" title="2.3 测试"></a>2.3 测试</h5><p>旧版 GoogleSearchConsole 测试 robots.txt  是否配置好</p>
-<p>新版 GoogleSearchConsole 测试 sitemap.xml 是否配置好</p>
-<p><a name="3676c080"></a></p>
-<h3 id="三-定期清除死链接"><a href="#三-定期清除死链接" class="headerlink" title="三. 定期清除死链接"></a>三. 定期清除死链接</h3><p><a href="https://www.google.com/webmasters/tools/removals">https://www.google.com/webmasters/tools/removals</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
+        <tag>算法</tag>
+        <tag>算法思想</tag>
       </tags>
   </entry>
 </search>
